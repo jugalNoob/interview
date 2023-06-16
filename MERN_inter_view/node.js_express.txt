@@ -1,0 +1,241 @@
+1) What is Express.js?
+Express.js, or simply Express, is a free, open-source, lightweight, and
+ fast backend web application framework for Node.js.
+ It is released as open-source software under the MIT License.
+Express js is a node js web application framework that provides broad features for building web and mobile 
+applications. It is used to create a single page, multipage, and
+ hybrid web application. Express js is high-performance, fast, unopinionated, and lightweight.
+
+
+2) What are some distinctive features of Express?
+
+.It allows to set up middleware to respond to HTTP/RESTful Requests.
+
+.It is asynchronous and single-threaded.
+
+.It provides good database support. It supports RDBMS as well as NoSQL databases.\
+
+.It defines a routing table to perform different HTTP operations (method and URL).
+
+Moving ahead in this section, you will cover the features of Express js.
+
+Fast server-side development 
+Node js's characteristics enable you to save a significant amount of time.
+
+Middleware
+A request handler with access to the request-response cycle of an application is known as middleware.
+
+Routing 
+It refers to how the URLs of an application's endpoint respond to client queries.
+
+Templating 
+It provides templating engines that create HTML templates on the server to create dynamic content on web pages.
+
+Debugging 
+Express makes it easier by pinpointing the exact location of issues.
+
+
+
+4) Why do we use Express.js?
+Express.js is an automatically prebuilt Node.js framework that facilitates us 
+to create server-side web applications faster and smarter. The main reason for 
+choosing Express is its simplicity, minimalism,
+ flexibility, and scalability characteristics.
+
+
+Q2::are the arguments available to an Express JS route handler function?
+
+Req: the request object
+Res: the response object
+Next (optional): It is a function employed to pass management to one of the above route handlers.
+
+
+
+3) Is Express.js front-end or backend framework?
+
+Express.js or Express is a JavaScript backend framework. It is mainly designed to develop complete
+ web applications (single-page, multi-page, and hybrid web applications) and APIs. Express is the
+ backend component of the MEAN stack where M stands for MongoDB, which handles database; E stands for
+ Express, which handles backend; A stands for AngularJS,
+
+
+5) What is the difference between Express.js and Node.js?
+
+
+
+8) What do you understand by Scaffolding in Express.js?
+
+
+10) Which are the arguments available to an Express JS route handler function?
+
+Following are the arguments that are available to an Express.js route handler-function:
+
+Req: the request object
+Res: the response object
+Next (optional): It is a function employed to pass management to one of the above route handlers.
+
+
+12) How can you enable debugging in Express.js app?
+
+There are different ways to enable debugging in Express.js app in different Operating Systems
+
+set DEBUG=express:*   
+node app.js   
+
+
+13) How can you allow CORS in Express.js?
+We can allow CORS in Express.js, by adding the following code in server.js:
+
+app.all('*', function(req, res, next) {  
+res.set('Access-Control-Allow-Origin', '*');  
+res.set('Access-Control-Allow-Methods', 'GET, POST, DELETE, PUT');  
+res.set('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type');  
+if ('OPTIONS' == req.method) return res.send(200);  
+next();  
+});  
+
+
+14) How can you deal with error handling in Express.js? Explain with an example.
+
+Error handling is much easier in the Express versions over Express 4.0. Use the following steps to do the error handling:
+
+
+ 15) is Middleware in Express.js? What are the different types of Middleware?
+
+
+Middleware is a function invoked by the Express routing layer before the final request handler.
+
+Middleware functions are used to perform the following tasks:
+
+It is used to execute any code.
+It is also used to make changes to the request and the response objects.
+It is responsible for ending the request-response cycle.
+It can call the next middleware function in the stack.
+
+
+Type of Middleware
+
+Following are the main types of Middleware:
+
+Application-level Middleware
+Router-level Middleware
+Error-handling Middleware
+Built-in Middleware
+Third-party Middleware
+
+////////App-Level-Middleware
+App.ue(function (req, res, next) {  
+  console.log('Current Time:', Date.now())  
+  next()  
+})  
+
+Third-party Middleware: There are many third-party middleware available such as:
+
+Body-parser
+Cookie-parser
+Mongoose
+Sequelize
+Cors
+Express-validator
+var bodyParser = require('body-parser');  
+app.use(bodyParser.json());  
+app.use(bodyParser.urlencoded({ extended: false }))  
+
+
+17) Which template engines do Express support?
+Express.js supports any template engine that follows the (path, locals, callback) signature.
+
+
+18) How can we render a pain HTML?
+There is no need to "render" HTML with the res.render() function. If you have a specific file, you can use the res.sendFile() function, but you should use the express if you serve many assets from a directory.static() middleware function.
+
+19)mentions   ofebugging on Linux as well as Windows.
+Debugging on Windows can be done as follows:
+
+set DEBUG = express:*
+node app.js
+
+
+20)ow do you install an express application generator for scaffolding?
+Express application generator is used for quickly creating an application skeleton. The given command is used for installing the express application generator.
+
+npm install expr
+ess-generator –g
+express myApp
+
+
+27. What is meant by an event-loop in Node JS?
+
+The event-loop manages the async content using a listener and queue. The main thread sends the async 
+function to a different thread whenever it requires to be executed. Alongside, v8 is allowed to execute
+ the main code. The event loop has different stages including pending callbacks, timers, check, poll, close callbacks,
+ etc. with different FIFO queues.
+
+24. What are the methods that you can call when the Formidable.File objects arise giving the information about the uploaded file?
+We can call the following methods in such cases-
+
+File.name- the name of the file
+File.path- the path to which the file is written
+File.size- the size of the file in bytes
+File. type- the file's MIME-type.
+
+
+23. Give an example of HTML form code allowing user to upload a file.
+<form method = “POST” action = “/submit-form”>
+  <input type = “file” name = “document” />
+  <input type = “submit” />
+</form>
+
+
+18. How can the cookies be manipulated using ‘Response.cookie()’?
+res.cookie (‘username’, ‘Flavio’, { domain: ‘flaviocopes.com’, path: ‘/administrator’, secure: true })
+res.cookie (‘username’, ‘Flavio’ , { expires: new Date(Date.now() + 90000), httpOnly: true})
+
+
+17. What are the most used HTTP methods in Express JS?
+
+GET - A specified resource's representation is requested by the GET method. These requests can only retrieve data.
+POST - Posting of the data enclosed in the request as a new entity is done using the POST method. The entity is identified by the URI.
+PUT - Modification in the existing entity is done with the data enclosed in the request identified by the URI.
+DELETE - The request for deleting the specified source is made by the DELETE method.
+
+
+11. What ways are provided by Express JS to configure the properties?
+Express JS provides us with two ways for configuring the properties, which are given below:
+
+With process.ENV
+With require.JS.
+
+12 How are the properties configured with process.ENV?
+The properties are configured by the given steps:
+
+We create a file within the project folder and name it ".env."
+All other properties are let to be separate within the ".env" file.
+We can employ any of the properties in server.js.
+
+
+
+6. Differentiate between Node JS and Express JS.
+Node JS is an open-source platform on which the JavaScript code is executed outside of a browser. It
+ is used by several companies, including Uber, Walmart, Netflix, etc. It is a platform acting as a web 
+server and not a programming language or framework. On the other hand,
+ Express JS is a framework built on Node JS.
+
+
+30. Differentiate between worker threads and clusters in Node JS.
+Cluster:Each CPU has one process with an IPC to communicate.
+Clusters help when multiple servers are required to accept HTTP requests through a single port.
+The processes have separate memory because of being spanned in different CPUs leading to memory issues.
+
+
+Worker Threads:
+
+Only a single process is there with multiple threads.
+Each Node contains one Node having most APIs accessible.
+The memory is shared with other threads.
+We can use this for CPU-intensive tasks.
+
+
+25. What is the package.json file?
+The package.json file is the heart of a Node.js system. This file holds the metadata for a particular project. The package.json file is found in the root directory of any Node application or module
+

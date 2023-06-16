@@ -1,0 +1,688 @@
+1::what is javscript?
+
+
+Qwhat is let const and var and hoisting scoping?
+ANS:const ::const variables are read-only and cannot be reassigned.
+ However, if the variable refers to an object or an array, the properties
+  or elements
+ of the object/array can still be modified.
+
+ let ::Introduced in ECMAScript 6 (ES6), let allows block-scoping of variables.
+  A block can be a function, a loop, or any other set of curly braces {}.
+
+ if(10==10){
+
+    let a="jugal sharma"
+    console.log(a)
+
+    console.log(true)
+ }else{
+    console.log(false)
+ }
+
+
+var::Variables declared with var are function-scoped or globally scoped
+, but they are not block-scoped. This means that a variable declared with 
+var is accessible within the function or global scope
+
+
+Hosting:::
+Hoisting applies only to variable and function declarations, not to assignments or initializations.
+
+Variable declarations using var are hoisted to the top of their scope. For example:
+
+console.log(x); // Output: undefined
+var x = 5;
+
+foo(); // Output: "Hello!"
+
+function foo() {
+  console.log("Hello!");
+}
+
+
+Qwhat is function?
+
+1:Arrow const add = (a, b) => a + b;
+console.log(add(2, 3)); // Output: 5
+
+2:Function Callback
+
+Callback Functions:
+In JavaScript, a callback function is a function that is passed as an argument to another function and 
+is executed at a later point in time or when a certain event occurs. 
+
+function fetchData(callback) {
+  // Simulating asynchronous data retrieval
+  setTimeout(function() {
+    const data = "Some data";
+    callback(data);
+  }, 1000);
+}
+
+function processData(data) {
+  console.log("Processing data:", data);
+}
+
+fetchData(processData);
+
+3:Function Hoisting:
+
+Function hoisting is a behavior in JavaScript where function declarations are moved to the top of their containing scope
+ during the compilation phase, similar to hoisting of variable
+
+ greet(); // Output: "Hello!"
+
+function greet() {
+  console.log("Hello!");
+}
+
+4::Immediately Invoked Function Expressions (IIFE):
+IIFE is a way to create self-executing anonymous functions that are immediately invoked. They are enclosed
+ within parentheses and followed 
+by a pair of parentheses that triggers the immediate invocation.
+
+(function() {
+  console.log("IIFE executed!");
+})();
+
+// Output: "IIFE executed!"
+
+5::Function Expressions:
+
+Function expressions are defined by assigning an anonymous function (a function without a name) to a variable.
+const greet = function(name) {
+  console.log("Hello, " + name + "!");
+};
+
+greet("John"); // Output: "Hello, John!"
+
+
+6::Generator Functions:
+
+Generator functions allow you to define an iterator function that can be paused and resumed during its
+ execution. They are defined using the function*
+
+function* generateSequence() {
+  yield 1;
+  yield 2;
+  yield 3;
+}
+
+const generator = generateSequence();
+
+console.log(generator.next().value); // Output: 1
+console.log(generator.next().value); // Output: 2
+console.log(generator.next().value); // Output: 3
+
+
+
+3:::Currying is achieved by returning a new function for each argument passed in, which keeps track of the arguments received so far. 
+When all the arguments have been collected, the original function is called and executed.
+
+function add(a) {
+  return function(b) {
+    return a + b;
+  };
+}
+
+const add5 = add(5); // Partially applying the argument 5
+
+console.log(add5(3)); // Output: 8
+console.log(add5(7)); // Output: 12
+
+
+function add(a, b, c) {
+  return a + b + c;
+}
+
+const add5 = add.bind(null, 5); // Partially applying the argument 5
+
+console.log(add5(3, 2)); // Output: 10
+console.log(add5(7, 1)); // Output: 13
+
+
+4::::In JavaScript, lexical scope is determined at the time of code compilation
+ and is based on the physical structure of the code rather than the runtime behavior.
+
+ function outer() {
+  const x = 10;
+
+  function inner() {
+    console.log(x);
+  }
+
+  inner(); // Output: 10
+}
+
+outer();
+
+::::::::Closures, on the other hand, are closely related to lexical scope. A closure is a function that retains access to variables from its outer (enclosing) 
+scope even after the outer function has finished executing.
+
+function outer() {
+  const x = 10;
+
+  function inner() {
+    console.log(x);
+  }
+
+  return inner;
+}
+
+const closureFunc = outer();
+closureFunc(); // Output: 10
+
+
+5::JavaScript Promises and callbacks, as well as 
+the async/await syntax, are mechanisms used to handle asynchronous operations and manage the flow of asynchronous code 
+function fetchData(callback) {
+  // Simulating asynchronous data retrieval
+  setTimeout(function() {
+    const data = "Some data";
+    callback(null, data); // Pass the retrieved data to the callback
+  }, 1000);
+}
+
+function handleData(error, data) {
+  if (error) {
+    console.error("Error:", error);
+  } else {
+    console.log("Data:", data);
+  }
+}
+
+fetchData(handleData);
+
+
+|||||Promises:
+Promises provide a more structured and readable way to handle asynchronous operations and avoid callback hell.  A Promise is an object representing the
+ eventual completion or failure of an asynchronous operation.
+
+ function fetchData() {
+  return new Promise(function(resolve, reject) {
+    // Simulating asynchronous data retrieval
+    setTimeout(function() {
+      const data = "Some data";
+      resolve(data); // Resolve the promise with the retrieved data
+      // or reject(new Error("Some error")) to reject with an error
+    }, 1000);
+  });
+}
+
+fetchData()
+  .then(function(data) {
+    console.log("Data:", data);
+  })
+  .catch(function(error) {
+    console.error("Error:", error);
+  });
+
+||||||||Async/Await:
+async/await is a modern JavaScript syntax introduced in ES2017 (ES8) that provides a more concise and 
+synchronous-like way to write asynchronous code using Promises.
+
+function fetchData() {
+  return new Promise(function(resolve, reject) {
+    setTimeout(function() {
+      const data = "Some data";
+      resolve(data);
+    }, 1000);
+  });
+}
+
+async function process() {
+  try {
+    const data = await fetchData();
+    console.log("Data:", data);
+  } catch (error) {
+    console.error("Error:", error);
+  }
+}
+
+process();
+
+
+6::::Based on your clarification, it seems you're asking about the output when using object destructuring in JavaScript. 
+When using object destructuring, the output will depend on the specific
+ properties being extracted from the object.
+
+ const person1 = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+const person2 = {
+  name: "Jane",
+  age: 25,
+  city: "London"
+};
+
+const { name: name1, age: age1, city: city1 } = person1;
+const { name: name2, age: age2, city: city2 } = person2;
+
+console.log(name1, age1, city1); // Output: "John" 30 "New York"
+console.log(name2, age2, city2); // Output: "Jane" 25 "London"
+
+
+7::::::map(): The map() method creates a new array by applying a function to each element in the original array. It returns a new array with the same length as the
+ original, where each element is the result of the applied function.
+
+ const numbers = [1, 2, 3, 4, 5];
+
+const multipliedByTwo = numbers.map((number) => number * 2);
+
+console.log(multipliedByTwo); // Output: [2, 4, 6, 8, 10]
+
+
+
+||filter 
+
+filter(): The filter() method creates a new array with all the elements that pass a certain condition defined by a filtering function. It returns a new array containing
+ only the elements for which the condition is true.
+const numbers = [1, 2, 3, 4, 5];
+
+const evenNumbers = numbers.filter((number) => number % 2 === 0);
+
+console.log(evenNumbers); // Output: [2, 4]
+
+|||reduce(): The reduce() method applies a function to each element of the array, reducing the array to a single value. It iterates over the array and accumulates 
+a value based on the provided reducer function.
+
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce((accumulator, number) => accumulator + number, 0);
+
+console.log(sum); // Output: 15
+
+|||||||||||Array Methods
+
+Mutating Methods:
+const fruits = ['apple', 'banana', 'cherry'];
+
+fruits.push('orange');
+console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'orange']
+
+const removedElement = fruits.pop();
+console.log(removedElement); // Output: 'orange'
+console.log(fruits); // Output: ['apple', 'banana', 'cherry']
+
+const shiftedElement = fruits.shift();
+console.log(shiftedElement); // Output: 'apple'
+console.log(fruits); // Output: ['banana', 'cherry']
+
+fruits.unshift('grape', 'kiwi');
+console.log(fruits); // Output: ['grape', 'kiwi', 'banana', 'cherry']
+
+const removedElements = fruits.splice(1, 2);
+console.log(removedElements); // Output: ['kiwi', 'banana']
+console.log(fruits); // Output: ['grape', 'cherry']
+
+
+Accessor Methods:
+
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+
+const concatenated = array1.concat(array2);
+console.log(concatenated); // Output: ['a', 'b', 'c', 'd', 'e', 'f']
+
+const sliced = array1.slice(1, 3);
+console.log(sliced); // Output: ['b', 'c']
+
+const index1 = array1.indexOf('b');
+console.log(index1); // Output: 1
+
+const index2 = array1.lastIndexOf('c');
+console.log(index2); // Output: 2
+
+
+Transformation Methods:|||||||||||||||
+
+const array = [3, 2, 5, 1, 4];
+
+array.reverse();
+console.log(array); // Output: [4, 1, 5, 2, 3]
+
+array.sort();
+console.log(array); // Output: [1, 2, 3, 4, 5]
+
+const joined = array.join('-');
+console.log(joined); // Output: '1-2-3-4-5'
+
+const string = array.toString();
+console.log(string); // Output: '1,2,3,4,5'
+
+Utility Methods:||||||||
+const array = [1, 2, 3, 4, 5];
+
+const isArray = Array.isArray(array);
+console.log(isArray); // Output: true
+
+const includes = array.includes(3);
+console.log(includes); // Output: true
+
+const foundElement = array.find((element) => element > 3);
+console.log(foundElement); // Output: 4
+
+const foundIndex = array.findIndex((element) => element > 3);
+console.log(foundIndex); // Output: 3
+
+const someResult = array.some((element) => element >
+
+
+7:::::::string Methods
+
+Length and Access Methods:||||||||||||||||||||
+
+const str = "Hello, World!";
+
+console.log(str.length); // Output: 13
+console.log(str.charAt(0)); // Output: "H"
+console.log(str.charCodeAt(1)); // Output: 101 (Unicode value of "e")
+console.log(str[4]); // Output: "o"
+
+
+Case Conversion Methods:||||||||||
+
+const str = "Hello, World!";
+
+console.log(str.toUpperCase()); // Output: "HELLO, WORLD!"
+console.log(str.toLowerCase()); // Output: "hello, world!"
+
+
+Substring Methods:|||||||||||
+
+const str = "Hello, World!";
+
+console.log(str.substring(7)); // Output: "World!"
+console.log(str.substring(7, 12)); // Output: "World"
+console.log(str.substr(7)); // Output: "World!"
+console.log(str.substr(7, 5)); // Output: "World"
+
+Searching and Replacing Methods:|||||||
+
+const str = "Hello, World!";
+
+console.log(str.indexOf("o")); // Output: 4
+console.log(str.lastIndexOf("o")); // Output: 8
+console.log(str.includes("World")); // Output: true
+console.log(str.startsWith("Hello")); // Output: true
+console.log(str.endsWith("!")); // Output: true
+console.log(str.replace("World", "Universe")); // Output: "Hello, Universe!"
+
+
+Splitting and Joining Methods:|||||||||||
+
+const str = "Hello, World!";
+
+console.log(str.split(", ")); // Output: ["Hello", "World!"]
+console.log(str.split("")); // Output: ["H", "e", "l", "l", "o", ",", " ", "W", "o", "r", "l", "d", "!"]
+console.log(str.split(" ")); // Output: ["Hello,", "World!"]
+console.log(str.join(" ")); // Throws an error (join is not a string method)
+
+
+Trimming Methods::::::
+
+const str = "  Hello, World!  ";
+
+console.log(str.trim()); // Output: "Hello, World!"
+console.log(str.trimStart()); // Output: "Hello, World!  "
+console.log(str.trimEnd()); // Output: "  Hello, World!"
+
+
+
+
+8||||||||||Data type in javscipt
+
+let name = "John"; // string
+let age = 25; // number
+let isStudent = true; // boolean
+let car = null; // null
+let person = { firstName: "Jane", lastName: "Doe" }; // object
+
+console.log(typeof name); // Output: "string"
+console.log(typeof age); // Output: "number"
+console.log(typeof isStudent); // Output: "boolean"
+console.log(typeof car); // Output: "object"
+console.log(typeof person); // Output: "object"
+
+function greet() {
+  console.log("Hello!");
+}
+
+console.log(typeof greet); // Output: "function"
+
+let id = Symbol("id");
+console.log(typeof id); // Output: "symbol"
+
+let bigNumber = BigInt(123456789);
+console.log(typeof bigNumber); // Output: "bigint"
+
+
+
+Sure! Here's a list of important JavaScript interview questions:
+
+What are the primitive data types in JavaScript?
+What is the difference between null and undefined?
+console.log(null == undefined); // Output: true
+console.log(null === undefined); // Output: false
+console.log(null == 0); // Output: false
+console.log(undefined == 0); // Output: false
+Explain the concept of hoisting in JavaScript.
+What is a closure in JavaScript? Provide an example.
+What are the different ways to create objects in JavaScript?
+What is the difference between == and === in JavaScript?
+Explain the event delegation pattern in JavaScript.
+How does prototypal inheritance work in JavaScript?
+What are the differences between function declarations and function expressions?
+What are the benefits of using the let and const keywords over var in ES6?
+What are the different ways to handle asynchronous operations in JavaScript?
+Explain the concept of callback functions and provide an example of their usage.
+What is the purpose of the this keyword in JavaScript? How is it determined?
+What are the arrow functions in JavaScript and how do they differ from regular functions?
+Explain the concept of event bubbling and event capturing in JavaScript.
+What is the difference between synchronous and asynchronous code execution?
+What is the purpose of the bind() method in JavaScript?
+Explain the concept of debouncing and throttling in JavaScript.
+What is the difference between null, undefined, and NaN?
+||||||||||||||let myVariable = null;
+let anotherVariable;
+let result = "abc" * 2;
+console.log(myVariable); // Output: null
+console.log(anotherVariable); // Output: undefined
+console.log(result); // Output: NaN
+Explain the concept of immutability in JavaScript and why it is important.
+
+// Example with an immutable object
+const person = {
+  name: "Alice",
+  age: 30
+};
+
+// Creating a new object by merging the existing object with additional properties
+const updatedPerson = { ...person, city: "New York" };
+
+console.log(person); // Output: { name: "Alice", age: 30 }
+console.log(updatedPerson); // Output: { name: "Alice", age: 30, city: "New York" }
+
+
+
+console.log(5-"5"+5)
+
+
+javscript es all with code
+let myVariable = null;
+console.log(myVariable); // Output: null
+let myVariable;
+console.log(myVariable); // Output: undefined
+console.log(typeof null); // Output: "object"
+console.log(typeof undefined); // Output: "undefined"
+
+Template Literals
+
+const name = "Alice";
+const greeting = `Hello, ${name}!`;
+
+console.log(greeting); // Output: Hello, Alice!
+
+
+Qwhat is objects ?
+
+ANs::object in  javascript  all code
+
+Object literal notation:
+
+const person = {
+  name: 'John Doe',
+  age: 30,
+  greet: function() {
+    console.log('Hello, my name is ' + this.name);
+  }
+};
+
+
+Constructor function:
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+  this.greet = function() {
+    console.log('Hello, my name is ' + this.name);
+  };
+}
+
+const person = new Person('John Doe', 30);
+
+ES6 class syntax:
+
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet() {
+    console.log('Hello, my name is ' + this.name);
+  }
+}
+
+const person = new Person('John Doe', 30);
+
+console.log(person.name); // Output: John Doe
+console.log(person.age); // Output: 30
+person.greet(); // Output: Hello, my name is John Doe
+
+
+
+11::In JavaScript, the setTimeout and setInterval functions are used to execute code after a specified
+ delay or repeatedly at a given interval, respectively.
+
+ console.log("Before timeout");
+
+setTimeout(() => {
+  console.log("Inside timeout");
+}, 2000); // Delay of 2000 milliseconds (2 seconds)
+
+console.log("After timeout");
+
+
+
+setInterval:
+The setInterval function repeatedly executes a piece of code at a specified interval 
+(in milliseconds) until it is cleared.\
+
+
+let counter = 0;
+
+const intervalId = setInterval(() => {
+  console.log(`Counter: ${counter}`);
+  counter++;
+
+  if (counter >= 5) {
+    clearInterval(intervalId); // Stop the interval after reaching 5
+  }
+}, 1000); // Interval of 1000 milliseconds (1 second)
+
+
+
+12:::::: javscript all looping
+ 
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+let i = 0;
+
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+
+let i = 0;
+
+do {
+  console.log(i);
+  i++;
+} while (i < 5);
+
+const arr = [1, 2, 3, 4, 5];
+
+for (const element of arr) {
+  console.log(element);
+}
+
+const obj = { a: 1, b: 2, c: 3 };
+
+for (const key in obj) {
+  console.log(key, obj[key]);
+}
+
+Qwhat is stack and heap memory in javscriupt?
+ANS::Stack Memory:
+Stack memory is used for storing variables and function calls. It follows a Last-In-First-Out (LIFO) data structure. Each time a function is called, a new stack frame is created and added to the top of the stack. When a function finishes executing, its stack frame is removed from the top of the stack.
+Here's an example to demonstrate the stack memory in JavaScript:
+function foo() {
+  var x = 10; // x is stored in the stack memory
+
+  function bar() {
+    var y = 20; // y is stored in the stack memory
+    console.log(x + y);
+  }
+
+  bar(); // function call, creates a new stack frame
+}
+
+foo(); // function call, creates a new stack frame
+|||||||||||||////Heap Memory:
+Heap memory is used for storing dynamically allocated objects, such as objects created using the new keyword or arrays. The allocation and deallocation of memory in the heap are managed by the JavaScript engine.
+Here's an example to demonstrate the heap memory in JavaScript:
+
+function createArray() {
+  var arr = new Array(1000000); // An array with 1 million elements
+  // The array is stored in the heap memory
+  return arr;
+}
+
+var myArray = createArray(); // The returned array is stored in the heap memory
+
+13:::::::::javascript in  prototype with code
+
+// Person constructor function
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+// Adding a method to the Person prototype
+Person.prototype.greet = function() {
+  console.log("Hello, my name is " + this.name + " and I am " + this.age + " years old.");
+};
+
+// Creating instances of Person
+var person1 = new Person("John", 25);
+var person2 = new Person("Jane", 30);
+
+// Calling the greet method
+person1.greet(); // Output: Hello, my name is John and I am 25 years old.
+person2.greet(); // Output: Hello, my name is Jane and I am 30 years old.

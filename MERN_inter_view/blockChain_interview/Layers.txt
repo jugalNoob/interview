@@ -1,0 +1,158 @@
+QWhat is layer?
+ANS::
+
+1:blockChain Trilema 
+
+::three plary 
+
+.scalable -->number transtion handle 
+
+.secure --> blockchain important
+
+
+.decentralize
+
+
+2::CAP Theorem
+
+.meaing of Cap use 2/3 only 
+
+.like bitcoin --> not scalable  -->yes secure  --> secure
+
+
+
+
+
+3:what is layers 
+
+
+
+
+
+
+
+::types of layer is 
+
+
+||layer3
+
+
+.ui interface
+
+.ux interface
+
+
+
+
+
+
+
+||layer2<-->important
+
+
+.scalability <--> polygon faster transcation
+
+
+.bitcoin lightning network
+
+
+.big size of bitcoin blockchain
+
+
+.onchain  and offchain
+
+
+
+
+
+
+
+
+||layer1
+
+.secuirty
+
+.example - pow.pos etc
+
+
+
+||layer0 fundcumation
+
+.it is a prgram code of layer0
+
+1 allow blockchain blackchains to interact with each other
+
+2:faster and cheaper transactions.
+
+3:infrasture for developer
+
+4:includes the internet , hardware and connection
+
+
+
+
+
+
+
+
+
+4:bitcoin Lightning Network
+
+.it is not blockchain
+
+.this is only code is called b-l-n
+
+
+:::Payment channel
+
+.multisignature 
+
+
+.time Lock
+
+
+example
+
+::Raju || create  funding of transction  :: 1BTC          ||::Pinki
+
+.second time not add block
+
+example
+
+
+0.99 BTC TO raju
+
+0.01 BTC  to Pinki
+
+.98 btc to raju
+
+.0.02 btc to pinki
+
+
+settle transction 
+
+.this transcation add code 
+
+0.6 btc to raju
+
+0.4 btc to pinki
+
+
+
+2:compatible wallet 
+
+3:costly 
+
+4:bugs transction 
+
+
+1:what is bitcoin?
+2:bitcoin monetary policy
+3:mining
+4:nonce
+5:CPU VS GPU VS ASICs
+6:Mempool
+7:transactions
+8:wallets
+9:public key and private kay
+

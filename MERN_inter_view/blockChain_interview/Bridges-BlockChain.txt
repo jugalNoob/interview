@@ -1,0 +1,37 @@
+|||||||||||Bridges The future interoperability|||||||||||||||||||||||||||
+
+
+Bitcoin  ---> Ether
+
+
+1::Dapp intercommunication
+
+solana isolated environment   ----> Ethereum Isolated environment
+
+
+|||||Benefits|||||
+
+ANS::inscreased liquied
+
+2::greater accessibility
+
+3::Enhanced functionality
+
+4::improved scalability
+
+5::low trancation
+
+
+
+|||||||||||Currency exchanges
+
+
+
+|||||||||||Bridge crosee -Chain Token Transfer||||||||||
+
+
+1::Lockand Mint Model 
+
+
+bridge wbtc
+

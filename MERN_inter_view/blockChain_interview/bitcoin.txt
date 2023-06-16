@@ -1,0 +1,266 @@
+Qwhat is bitcoin?
+
+Qwhat is Nonce
+
+Qwhat is transaction?
+
+Qwhat is  bitcoin's monetary?
+
+QCPU VS GPU VS ASIC
+
+Qwhat is wallets
+
+Qwhat is mining 
+
+Qwhat is mempool
+
+Qwhat is public key and private key
+
+Qwaht in halving in  bitcoin
+
+Qwhat is timestamp bitcoin
+
+
+
+
+Qwhat is bitcoin
+
+Ans::technolog  -->blockchain
+
+:: protocol / coin -->bitcoin  --> ethereum
+
+miner reward
+
+::erc-20
+
+
+
+Qwhat bitcoin monetary?
+
+ANS::the halving  is bitcoin reward
+
+1::block Frequeuncy ::->this states that on an average it will 
+
+take 10 minute to create a new block
+
+website-->blockchain.com 
+
+
+
+
+Qwhat is mining works The Nonce?
+
+
+ANS::Minig
+
+.-->transaction  --> solve mathematical problem  --> miner solved problem first  --> miner verify the validity -->block is added
+
+
+1:://the Nonec -->website https://demoblockchain.org/block
+
+QWhat meth proble is called Nonce;
+
+.block no
+.nonce::23
+.data:->
+prev hash:
+hash:
+
+:Nonce change and change HASH value
+:Nonce is mtha problem is crate hasH
+
+
+Qhow minig works?
+ANS:The none is the number that blockchain miner sre solving for.
+
+Target::/target is a number used in mining
+
+::/it is a number that a block hash must be below for the block to be added on the blockchain
+::/the target adjust every 2016 block (roghly two weeks) to try and ensure that blocks are mined onece
+evey 10 minute on average;
+
+
+
+
+::/hexadecimal number
+
+
+::/small hash 0x000000000000
+
+::/larger hash 0xfffffffffffff
+
+
+
+///All possible hashes
+
+
+samlles ------------> largest
+use only 00008566788487744 hash is important
+
+start is four 0000 is hash number
+
+
+
+
+Qwhat is bitcoin target history?
+
+ANS::
+
+
+
+QWHAT CPU  VS  asicis VS gpu?
+
+ANS:CPU <10MH/s
+
+GPU<1 GH/s
+
+ASIC > 1000GH/s
+
+
+Qwhat is Mining Pool?
+
+ANS:Blockchain.com hashrate distribution
+
+
+
+Qwhat is Nonce range
+
+ANS:1   Nonce is a 32 bit number.
+
+Range of noce =0to2^32-1_ 0 to 4*10^9 4billion number;
+
+ :total 4 billion number
+:four 4 billion hash
+
+
+Qwhat is Timestamp?
+ANS:Timestamp
+
+https://www.unixtimestamp.com/
+
+A minier exhaust 4 billion nonce in 40sec
+
+A miner will will exhaust 0.1 billion nonce in 1 sec.
+
+//::current hashing rate is equal to 180 million trillion hashes/sec
+
+
+
+Qwhat is transaction and UTXOs?
+
+ANS:>
+
+
+Qwhat is crypto wallets
+
+ANS:
+
+
+
+  Developers | Trust Wallethttps://trustwallet.com › developer
+Wallet Core is a cross-platform library that implements low-level cryptographic wallet 
+functionality for several blockchains. Most of the code is C++ with a set ...
+
+
+Ans::Crypto wallet 
+
+
+Qwhat is private key and public Keys
+
+ANS:://\\tools.superdatascience
+
+
+
+Qwhat is mempool?
+
+ANS::
+The mempool, short for "memory pool," is a component of a blockchain network that temporarily holds 
+unconfirmed transactions before they are included in a block and added to the blockchain. It serves as a 
+staging area for pending transactions waiting to be validated and included in the next block by miners or
+ validators. Here's how the mempool works:
+
+
+
+1:Transaction Submission: When a user initiates a transaction on a blockchain network, such as sending 
+cryptocurrency from one address to another, the transaction is first broadcasted to the network.
+
+
+
+2::Mempool Inclusion: Once the transaction is broadcasted, it enters the mempool. The mempool is a data structure maintained by each participating node in the network, which keeps track of all the unconfirmed transactions.
+
+
+
+3::Validation and Inclusion: Miners or validators, responsible for maintaining the network's security and 
+consensus, select transactions from the mempool to include in the next block they are mining or 
+validating. 
+
+
+4::Confirmation and Block Inclusion: When a miner successfully mines a new block or a validator adds a new
+ block to the blockchain, the selected transactions
+
+
+
+5::Transaction Removal: After a transaction is included in a block, it is removed from the mempool of 
+participating nodes since it is no longer pending
+
+
+
+
+
+
+Qwaht is mining?
+
+Transaction Validation: Miners collect unconfirmed transactions from the Bitcoin network's mempool. 
+
+
+Block Formation: Miners group validated transactions into a block. Each block can contain a limited number of transactions, and there is a maximum block size (in bytes)
+
+
+Proof-of-Work: Miners compete to solve a computationally intensive mathematical puzzle called the Proof-of-Work (PoW) algorithm. 
+
+
+Mining Difficulty: The Bitcoin network adjusts the mining difficulty level approximately every two weeks to maintain an average block creation time of around 10 minutes. 
+
+
+
+Block Confirmation: The miner who successfully finds the correct hash that satisfies the PoW criteria broadcasts their block to the network. 
+
+
+Continuous Mining: Mining is an ongoing process, with new blocks added to the blockchain approximately every 10 minutes. 
+
+
+
+
+
+Qwhat is hat is timestamp bitcoin
+
+Block Timestamp: The timestamp in Bitcoin is recorded in the header of each block. The block header
+
+Timekeeping: The timestamp represents the time when the miner started the process of mining the block. It is typically set by the miner themselves, based on their local system clock. However, it's important 
+
+
+
+Network Time: The Bitcoin network does not have a central authority or global clock to synchronize timestamps. Instead, it relies on a 
+
+
+Difficulty Adjustment: The timestamp plays a role in the difficulty adjustment algorithm of Bitcoin. The difficulty level, which determines the computational effort required to mine a block, is adjusted 
+
+
+
+
+Proof-of-Work Consensus: The timestamp, along with other components of the block header, is used as input for the proof-of-work (PoW) algorithm. Miners compete to find a hash value that meets 
+
+
+
+
+
+
+
+
+
+-
+
+
+
+
+

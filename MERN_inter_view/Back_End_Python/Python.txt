@@ -1,0 +1,527 @@
+1) What is Python?
+ANS)Python is a high-level, interpreted, general-purpose programming language. Being a general-purpose 
+language, it can be used to build almost any type of application with the right tools/libraries. Additionally, 
+python supports objects, modules, threads, exception-handling, and automatic memory management which help in 
+modelling real-world problems and building applications to solve these problems.
+
+
+ANS)Its high-level data structures, combined with dynamic typing and dynamic binding, attracta huge community of
+ developers  for Rapid Application Development and deployment
+
+///||Dynamic - Data Types are checked during execution.
+Python is an interpreted language, executes each statement line by line and thus type-checking is done on the fly, during 
+execution. Hence, Python is a Dynamically Typed Language.
+
+
+2) Why Python?
+||Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.
+||Python is compatible with different platforms like Windows, Mac, Linux, Raspberry Pi, etc.
+||Python has a simple syntax as compared to other languages.
+||Python allows a developer to write programs with fewer lines than some other programming languages.
+||Python runs on an interpreter system, means that the code can be executed as soon as it is written. It helps to provide a prototype very quickly.
+||Python can be described as a procedural way, an object-orientated way or a functional way.
+
+
+
+3) What are the applications of Python?
+
+Python is used in various software domains some application areas are given below.
+
+Web and Internet Development |||Django , flask , Pyramid
+Games //
+Scientific and computational applications
+Language development
+Image processing and graphic design applications
+Enterprise and business applications development
+Operating systems
+GUI based desktop applications
+
+||Python's standard library supports for E-mail processing, FTP, IMAP, and other Internet protocols.
+||Python's SciPy and NumPy helps in scientific and computational application development.
+||Python's Tkinter library supports to create a desktop based GUI applications.
+
+
+
+4) What are the advantages of Python?
+Python is Interpreted language
+Interpreted: Python is an interpreted language. It does not require prior compilation of 
+code and executes instructions directly.
+
+||Free and open source: It is an open-source project which is publicly available to reuse.
+ It can be downloaded free of cost.
+
+||It is Extensible
+Extensible: It is very flexible and extensible with any module.
+
+||Object-oriented
+Object-oriented: Python allows to implement the Object-Oriented concepts to build application solution.
+
+||It has Built-in data structure
+Built-in data structure: Tuple, List, and Dictionary are useful integrated data structures provided by the language.
+
+||Readability
+||High-Level Language
+||Cross-platform
+
+
+5) What is PEP 8?
+
+PEP 8 stands for Python Enhancement Proposal, it can be defined as a document that helps us 
+to provide the guidelines on how to write the Python code. It is basically a set of rules that specify
+ how to format Python code for maximum readability. It was written by Guido van Rossum, 
+Barry Warsaw and Nick Coghlan in 2001.
+
+
+6) What do you mean by Python literals?
+
+Literals can be defined as a data which is given in a variable or constant. Python supports
+ the following literals: 
+
+String Literals
+||single = 'JavaTpoint'  
+
+Numeric Literals
+||a = 10    
+
+
+Special literals
+||word = None  
+||print(word)  
+
+
+7) Explain Python Functions?
+
+||Built-In Functions: copy(), len(), count() are the some built-in functions.
+||User-defined Functions: Functions which are defined by a user known as user-defined functions.
+||Anonymous functions: These functions are also known as lambda functions because they are not declared 
+with the standard def keyword.
+
+
+
+8) What is zip() function in Python?
+||Python zip() function returns a zip object, which maps a similar index of multiple containers. It takes
+||an iterable, convert into iterator and aggregates the elements based on iterables 
+||passed. It returns an iterator of tuples.
+
+
+9) What is Python's parameter passing mechanism?
+There are two parameters passing mechanism in Python:
+
+Pass by references
+Pass by value
+
+10) How to overload constructors or methods in Python?
+
+Python's constructor: _init__ () is the first method of a class. Whenever we try 
+to instantiate an object __init__() is automatically invoked by python to initialize members
+ of an object. We can't overload constructors or methods 
+in Python. It shows an error if we try to overload.
+
+class student:    
+    def __init__(self, name):    
+        self.name = name    
+    def __init__(self, name, email):    
+        self.name = name    
+        self.email = email  
+st = student("rahul", "rahul@gmail.com")    
+print("Name: ", st.name)  
+print("Email id: ", st.email)
+
+11) What is the difference between remove() function and del statement? 
+list_1 = [ 3, 5, 7, 3, 9, 3 ]   
+print(list_1)  
+list_1.remove(3)   
+print("After removal: ", list_1)  
+
+
+12) What is swapcase() function in the Python?
+
+||string = "IT IS IN LOWERCASE."  
+print(string.swapcase())  
+  
+||string = "it is in uppercase."  
+print(string.swapcase())  
+
+
+
+13) How to remove whitespaces from a string in Python?
+
+To remove the whitespaces and trailing spaces from the string, Python providies strip([str])
+ built-in function. This function returns a copy of the string after removing whitespaces
+ if present. Otherwise returns original string.
+
+||string2 = "    javatpoint      
+||print(string2)  
+||print(string2.strip())
+
+
+14) How to remove leading whitespaces from a string in the Python?  
+||string2 = "    javatpoint        "
+||print(string.lstrip())  
+
+
+15) Why do we use join() function in Python?
+
+||str = "Rohan"  
+||str2 = "ab"  
+||# Calling function    
+||str2 = str.join(str2)    
+||# Displaying result    
+||print(str2)  
+
+18) What is tuple in Python?
+
+A tuple is a built-in data collection type. It allows us to store values in a sequence. 
+It is immutable, so no change is reflected in the original data. It uses () brackets
+ rather than [] square brackets to create a tuple
+||Tuple supports various methods like max(), sum(), sorted(), Len() etc.
+
+||# Declaring tuple  
+tup = (2,4,6,8)  
+||# Displaying value  
+print(tup)  
+  
+||# Displaying Single value  
+print(tup[2]) 
+
+
+20) What are the different file processing modes supported by Python?
+
+Python provides four modes to open files. The read-only (r), write-only (w), read-write (rw)
+ and append mode (a). 'r' is used to open a file in read-only mode, 'w' is used 
+to open a file in write-only mode, 'rw'
+
+||Read-only mode (r): Open a file for reading. It is the default mode.
+||Write-only mode (w): Open a file for writing. If the file contains data, data would be lost. Other a new file is created.
+||Read-Write mode (rw): Open a file for reading, write mode. It means updating mode.
+||Append mode (a): Open for writing, append to the end of the file, if the file exists.
+
+
+21) What is an operator in Python?
+
+# Unary Operator  
+A = 12  
+B = -(A)  
+print (B)  
+# Binary Operator  
+A = 12  
+B = 13  
+print (A + B)  
+print (B * A)  
+#Ternary Operator  
+A = 12  
+B = 13  
+min = A if A < B else B  
+    
+print(min)  
+
+
+22) What are the different types of operators in Python?
+
+Arithmetic OperatorsRelational Operators
+Assignment Operators
+Logical Operators
+Membership Operators
+Identity Operators
+Bitwise Operators
+
+
+Arithmetic operators perform basic arithmetic operations. For example "+" is 
+used to add and "?" is used for subtraction
+
+||# Adding two values  
+print(12+23)  
+
+
+Assignment operators
+
+a=12  
+print(a) # 12  
+a += 2  
+print(a) # 14  
+a -= 2  
+print(a) # 12  
+a *=2  
+print(a) # 24  
+a **=2  
+print(a) # 576 
+
+
+||Logical operators 
+
+a = True  
+b = False  
+print(a and b) # False  
+print(a or b) # True  
+print(not b) # True  
+
+
+||Membership operators
+
+# Membership operators examples  
+list = [2,4,6,7,3,4]  
+print(5 in list) # False  
+cities = ("india","delhi")  
+print("tokyo" not in cities) #True   
+
+# Identity operator example  
+a = 10   
+b = 12  
+print(a is b) # False  
+print(a is not b) # True  
+
+
+
+||Bitwise Operators
+# Identity operator example  
+a = 10   
+b = 12  
+print(a & b) # 8  
+print(a | b) # 14  
+print(a ^ b) # 6  
+print(~a) # -11  
+
+
+23) How to create a Unicode string in Python?
+In Python 3, the old Unicode type has replaced by "str" type, and the string is treated as Unicode by
+default. We can make a string in Unicode by using art.title.encode("utf-8") function.
+
+unicode_1 = ("\u0123", "\u2665", "\U0001f638", "\u265E", "\u265F", "\u2168")  
+print (unicode_1)  
+
+
+24) is Python interpreted language?
+
+Python is an interpreted language. The Python language program runs directly from the source code. 
+It converts the source code into an intermediate language code, which is again translated into
+ machine language that has to be executed.
+
+Unlike Java or C, Python does not require compilation before execution.
+
+25) How is memory managed in Python?
+
+
+26) What is the Python decorator?
+
+Decorators are very powerful and a useful tool in Python that allows the programmers 
+to add functionality to an existing code. 
+
+def function_is_called():  
+    def function_is_returned():  
+        print("JavaTpoint")  
+    return function_is_returned  
+new_1 = function_is_called()  
+# Outputs "JavaTpoint"  
+new_1()
+
+Functions vs. Decorators
+
+A function is a block of code that performs a specific task whereas a decorator is a function tha
+ modifies other functions.
+
+
+27) What are the rules for a local and global variable in Python?
+
+||Global Variables:
+
+||Variables declared outside a function or in global space are called global variables.
+
+A = "JavaTpoint"  
+def my_function():  
+  print(A)  
+my_function()  
+
+
+||Local Variables:
+
+||Any variable declared inside a function is known as a local variable. This variable is present in the local
+ space and not in the global space.
+
+def my_function2():  
+    K = "JavaTpoint Local"  
+    print(K)  
+my_function2()   
+
+
+
+28) What is the namespace in Python?
+
+The namespace is a fundamental idea to structure and organize the code that is more useful in
+ large projects. However, it could be a bit difficult concept to grasp if you're new to programming. 
+Hence, we tried to make namespaces just a little easier to understand.
+
+
+
+30) What is a generator in Python?
+
+
+32) What is a dictionary in Python?
+
+The Python dictionary is a built-in data type. It defines a one-to-one relationship between keys
+ and values. Dictionaries contain a pair of keys and their corresponding values. It
+ stores elements in key and value pairs. 
+
+
+33) What is Pass in Python?
+
+Pass specifies a Python statement without operations. It is a placeholder in a compound statement. 
+If we want to create an empty class or functions, the pass keyword 
+helps to pass the control without error.
+
+
+34) Explain docstring in Python?
+The Python docstring is a string literal that occurs as the first statement in a module,
+ function, class, or method definition. It provides 
+a convenient way to associate the documentation.
+
+
+36) What is pickling and unpickling in Python?
+
+
+38) What is the usage of help() and dir() function in Python?
+
+
+
+40) How Python does Compile-time and Run-time code checking?
+
+
+
+41) What is the shortest method to open a text file and display its content?
+
+with open("FILE NAME", "r") as fp:  
+    fileData = fp.read()    
+# To print the contents of the file     
+print(fileData)  
+
+
+
+42) What is the usage of enumerate () function in Python?
+
+The enumerate() function is used to iterate through the sequence and retrieve the index 
+position and its corresponding value at the same time.
+
+
+list_1 = ["A","B","C"]  
+s_1 = "Javatpoint"   
+# creating enumerate objects  
+object_1 = enumerate(list_1)  
+object_2 = enumerate(s_1)  
+   
+print ("Return type:",type(object_1))  
+print (list(enumerate(list_1)))  
+print (list(enumerate(s_1)))  
+
+
+44) What is type conversion in Python?
+
+Type conversion refers to the conversion of one data type iinto another.
+
+int() - converts any data type into integer type
+
+float() - converts any data type into float type
+
+ord() - converts characters into integer
+
+hex() - converts integers to hexadecimal
+
+oct() - converts integer to octal
+
+tuple() - This function is used to convert to a tuple.
+
+set() - This function returns the type after converting to set.
+
+list() - This function is used to convert any data type to a list type.
+
+dict() - This function is used to convert a tuple of order (key,value) into a dictionary.
+
+str() - Used to convert integer into a string.
+
+
+45) How to send an email in Python Language?
+
+import smtplib    
+# Calling SMTP    
+s = smtplib.SMTP('smtp.gmail.com', 587)    
+# TLS for network security    
+s.starttls()    
+# User email Authentication    
+s.login("sender@email_id", "sender_email_id_password")    
+# Message to be sent    
+message = "Message_sender_need_to_send"    
+# Sending the mail    
+s.sendmail("sender@email_id ", "receiver@email_id", message)    
+
+
+
+48) Why do lambda forms in Python not have the statements?
+
+Lambda forms in Python does not have the statement because it is used to make the new function object and return them in runtime.
+
+
+49) What are functions in Python?
+A function is a block of code which is executed only when it is called. To define 
+a Python function, the def keyword is used.
+
+
+
+A function is a block of code which is executed only when it is called. 
+To define a Python function, the def keyword is used.
+
+
+50) What is __init__?
+
+The __init__ is a method or constructor in Python. This method is automatically called to allocate memory when a new object/ instance of a
+ class is created. All classes have the __init__ method.
+
+
+
+54) What are python modules? Name some commonly used built-in modules in Python?
+
+os
+sys
+math
+random
+data time
+JSON
+
+
+
+List vs. tuple vs. set vs. dictionary in Python
+List: Lists are just like dynamic sized arrays, declared in other languages (vector in C++ and ArrayList in Java).
+ Lists need not be homogeneous always which makes it the most powerful tool in Python.
+ The main characteristics of lists are – 
+The list is a datatype available in Python which can be written as a list of comma-separated values (items) between square brackets.
+List are mutable .i.e it can be converted into another data type and can store any data element in it.
+List can store any type of element.
+a=[10 , 20 , 30]
+
+||||||
+Tuple
+||||||||
+
+Tuple: Tuple is a collection of Python objects much like a list. The sequence of values stored in a tuple
+ can be of any type, and they are indexed by integers. Values of a tuple are syntactically separated by ‘commas’.
+ Although it is not necessary, it is more common to define a tuple by closing the sequence of values in
+ parentheses. The main characteristics of tuples are – 
+
+|/|Tuple is an immutable sequence in python.
+|/|It cannot be changed or replaced since it is immutable.
+|/|It is defined under parenthesis().
+|/|Tuples can store any type of element.
+
+tuple=(10 , 20 , 30)
+
+
+||||setDataType
+
+Set: In Python, Set is an unordered collection of data type that is iterable, mutable, and has 
+no duplicate elements. The major advantage of using a set, as opposed to a list, is that it has a highly 
+optimized method for checking whether a specific element is contained in the set. The main characteristics of 
+set are –
+
+|/|Sets are an unordered collection of elements or unintended collection of items In python.
+|/|Here the order in which the elements are added into the set is not fixed, it can change frequently.
+|/|It is defined under curly braces{}
+|/|Sets are mutable, however, only immutable objects can be stored in it.
+|/|set={10 , 20 , 30)
+

@@ -1,0 +1,412 @@
+1. What is Blockchain technology?
+
+:::The blockchain is an incorruptible digital ledger of economic transactions that can be programmed
+ to record not just financial transactions but virtually everything of value.
+
+2. What is Blockchain Wallet and How Does It Work?
+
+A blockchain wallet is a piece of digital software that stores private and public keys, as well as tracks and records all transactions involving those keys on the blockchain. A blockchain wallet, in theory, does not store cryptocurrency; instead, all records belonging to these keys are stored on the blockchain on which the wallet is hosted.
+Blockchain wallets have public and private keys. A public key and a private key are used in a similar way in blockchain wallets.
+
+
+3. What Is Ethereum (ETH)?
+
+Ethereum is an open-source software platform based on Blockchain technology that enables developers to build and deploy decentralized applications (i.e., applications that are not controlled by a single entity). You may construct a decentralized application in which the participants are the ones who make the decisions.
+
+
+5. What are Smart Contracts and how do they work?
+
+A smart contract is a computer code-based agreement between two individuals. They are stored on a public ledger and cannot be modified because they run on the blockchain. A smart contract’s transactions are handled by the blockchain, which means they can be submitted automatically without the involvement of a third party.
+The Smart contracts are secure, transparent, third-party-free, autonomous, and accurate.
+
+
+6. What Is Cryptocurrency Mining and how Bitcoin mining works?
+
+The word “crypto mining” refers to the process of obtaining cryptocurrencies by the use of computers to solve cryptographic equations. Validating data blocks and applying transaction records to a public record (ledger) is also a part of this method.
+\
+
+
+
+
+7. What is a Blockchain Explorer?
+
+
+A Blockchain Explorer is a piece of software that draws data from a blockchain using an API and a blockchain node, then uses a database to organize the data and present it to the user in a searchable format.\
+
+8. What Is Hashing in Blockchain?
+The process of making an input item of any length represents an output item of a fixed length is referred to as hashing in the blockchain. Take, for example, the use of blockchain in cryptocurrencies, where transactions of varying lengths are run through a given hashing algorithm and all produce a fixed-length performance.
+
+
+9. What are the different types of Blockchain?
+
+
+There are four types of blockchains as follows:
+
+Public Blockchains
+Private Blockchains
+Consortium Blockchains
+Hybrid Blockchains.
+
+
+10. What are the benefits of Blockchain Technology?
+Blockchain technology employs advanced security compared to other networks or record-keeping systems. Prior to being recorded, all transactions must be agreed upon. A transaction is encrypted and connected to the previous transaction after it has been authorized.
+
+
+::Blockchain offers transparency. As one of the major problems in the new industry is transparency. An organization may use blockchain to create a completely decentralized network that eliminates 
+
+
+::Blockchain helps in reducing costs. Organizations will save a lot of money by using the blockchain instead of paying third-party vendors.
+
+
+::Blockchain automates time-consuming processes in order to increase performance. With the aid of automation, it also eliminates human errors. As a result, blockchain increases efficiency and speed.
+
+
+::The blockchain allows for immediate traceability. It generates an audit trail that records an asset’s provenance at each stage of its journey which prevents fraud.
+
+
+
+11. Name some popular Blockchain Platforms for Blockchain Applications?
+
+
+IBM Blockchain
+EOS
+OpenLedger
+Corda
+Ripple Blockchain
+Ethereum Blockchain
+IOTA
+Quorum
+OpenChain
+Hyperledger Sawtooth
+
+
+12::12. What is the difference between Blockchain and Hyperledger?
+
+::Blockchain is a technology that allows us to build decentralized systems. When we break down blockchain, the “block” refers to information stored in a digital format, while the “chain” refers to the database where that information is stored.
+
+
+::Hyperledger is a type of blockchain platform. It’s a blockchain-based open-source network. These blockchains each have their own storage routines and consensus, as well as smart contracts, identity, and access management.
+
+
+13. What are some of the popular Cryptocurrencies?
+
+Bitcoin(BTC)
+Ethereum(ETH)
+Ripple(XRP)
+Litecoin(LTC)
+Bitcoin Cash(BCH)
+
+
+14. What is a ledger? What is the difference between a distributed ledger and a traditional ledger?
+
+::A ledger is a constantly growing file. It maintains a permanent record of all transactions between two parties on the blockchain network.
+
+
+::A distributed ledger is a database of digital data that is replicated, exchanged, and synchronized across multiple sites in a network.
+
+
+::Distributed ledgers, unlike traditional ledgers (think banks, governments, and accountants), provide a system of synchronized databases
+
+
+15. What is a 51% Attack?
+
+A miner or a group of miners attempting to control more than 50% of a network’s hashing capacity, processing power, or hash rate is known as a 51 percent attack on a blockchain network.\
+
+16. Compare Blockchain with relational database
+
+Criteria	Blockchain	RDBMS
+Unit of data	Block	Table
+Single point of failure	Does not exist	Exists
+Centralized control	No	Yes
+Editing/deleting data	Not possible	Possible
+
+
+
+17. What do you mean by blocks in Blockchain technology?
+
+In the Blockchain, a block is simply a set of records. The term “blockchain” refers to the process of joining these lists together. For example, if a company has 100 ledger books, the total is known as Blockchain, and each ledger is referred to as a block.
+
+
+
+18. How does a block is recognized in the Blockchain approach?
+
+Any block in this online ledger consists primarily of a hash pointer that serves as a connection to the previous block, transaction data, and a time stamp.
+
+
+
+19. Are there any network-specific conditions for using Blockchain technology in an organization?
+
+No, there isn’t any such restriction on using it. However, under the worried protocols, the network must be a peer-to-peer network. It effectively validates the new block and assists businesses in keeping up with the pace in this area without relying on third-party applications.
+
+
+20. Is it possible to modify the data once it is written in a block?
+
+
+No, it is not possible to do that. If any customization is needed, the company simply needs to delete the details from all other blocks as well. Data must be treated with extreme caution when using this system for no other reason than this.
+
+
+21. What type of records can be kept in Blockchain? Is there any restriction on the same?
+
+In the Blockchain method, there are no limitations on the number of records that can be held. It is important to remember that record keeping is not limited to these applications.
+
+Health transaction records
+Managing your identity
+Production of transactions
+Organizational events and management tasks
+Documentation is required.
+
+22. How Does Blockchain Create Blocks?
+
+
+::::When the block size is reached, the blockchain creates blocks automatically. Since the block is a file, the transactions are saved until the file is complete. They are linked in such a way that the most recent block is connected to the previous one. A hash value is created using a mathematical function to identify a block. It also shows any modifications made to a block.
+
+
+23. Can Anyone Remove Blocks from A Blockchain?
+
+The manner in which blocks are removed from a blockchain is entirely dependent on how they are treated. Manually removing a block is not possible. If it is destroyed, however, the blockchain may attempt to restore the database using other peers.
+
+
+24. What is encryption? What is its role in Blockchain?
+Encryption is a technique that is used to keep the data secure.  The data is encoded to some level before being sent out of a network by the sender in this process. Only the receiver will be able to decode it. This approach is useful in Blockchain because it simply adds to the overall protection and validity of blocks, making them more stable.
+
+
+26. Why is Blockchain a trusted approach?
+
+For a variety of purposes, blockchain can be trusted. Because of its open-source existence, the first thing that comes to mind is its compatibility with other business applications. The second factor is its safety. Since it was designed to be used for online
+
+
+27. What is Secret Sharing? Does it have any benefit in Blockchain technology?
+
+It is completely obvious that security is extremely important in digital transactions. In Blockchain technology, secret sharing is a method of dividing secret or personal information into smaller units and sending them to network users. The original
+
+
+29. How does Bitcoin use Blockchain?
+
+A transaction is a value transfer that is recorded in the blockchain between Bitcoin wallets. Bitcoin wallets store a private key, also known as a seed, which is used to sign transactions and provide mathematical proof that they came from the wallet’s owner.
+
+
+
+30. Is Blockchain an incorruptible ledger?
+Yes, Blockchain is an incorruptible ledger. According to the inventor, the blockchain database cannot be tampered with.
+
+
+31. What are blockchain requirements?
+Blockchain is a truly disruptive technology that has the potential to change business networks. So, the requirements for a blockchain is as follows:
+
+Smart contracts
+Ledgers
+Cryptography
+Consensus Protocol
+
+
+
+32. In what order are the blocks linked in the blockchain?
+:::Each block in the blockchain is always linked in reverse order. To put it another way, blockchain connects each block to the one before it. Hence, blocks are linked in the backward direction.
+
+:::That’s it for the list of top Blockchain questions for beginners. Let’s move to the next section of intermediate Blockchain Technology interview questions.
+
+
+
+33. What are Block Identifiers?
+
+
+A blockchain has a unique identifier for each block. The hash value is used to create a unique identifier. As a result, no two block identifiers would be the same. In Blockchain, blocks can be identified by the block header hash and the block height.
+
+
+
+34. Name the common type of ledgers that can be considered by users in Blockchain?
+\There are three common types of a ledger that can be considered by users in the blockchain:
+
+Centralized Network
+Decentralized Network
+Distributed Network
+
+
+35. How is a blockchain ledger different from an ordinary ledger?
+
+The key distinction between blockchain ledger and ordinary ledger is that Blockchain is a distributed database that can be conveniently decentralized. This method has a much lower risk of error than a traditional ledger.
+
+An ordinary ledger is one that is created by hand or by human effort, while the Blockchain automates all of its processes. All you have to do now is set it up properly and according to the instructions.
+
+
+36. What is Double Spending? Is it possible to double spend in a Blockchain system?
+
+:::It occurs when a single digital token is used several times since the token is typically made up of a digital file that can be easily cloned. It simply causes inflation, and businesses are forced to take a significant loss. One of the main goals of Blockchain technology is to eradicate this method as much as possible.
+
+
+
+::Blockchain avoids double-spending by requiring several parties to validate a transaction before it is written to the ledger. It’s no exaggeration to claim that bitcoin’s entire
+
+
+
+38. Can you define what is an off-chain transaction?
+A transaction that takes place outside of the blockchain is known as an off-chain transaction. An on-chain transaction – often referred to as simply “a transaction” – modifies the blockchain and relies on the blockchain to establish its legitimacy, while off-chain transaction records and validates the transaction using other methods.
+
+
+
+53. What do you mean by Coinbase transaction?
+In a block, the first transaction is a Coinbase transaction. A miner will build this unique kind of bitcoin transaction. It is used by miners to receive the block reward for their efforts, as well as any other transaction fees.
+
+
+52. What are the Merkle trees?
+
+The Merkle tree is a fundamental component of blockchain technology. It’s a mathematical data structure made up of hashes of various data blocks that acts as a description of all the transactions in a block. It also enables fast and reliable content verification across a broad dataset. It also aids in the verification of data accuracy and content. Merkle is used for both Bitcoin and Ethereum. Merkle Tree is also known as Hash Tree.
+
+
+51. What Do You Think About the Future of Blockchain?
+
+Blockchain has a bright future. It is currently in its development phase, with both technical and adoption advancements. Its applications in almost every industry speak volumes about its future.
+
+
+
+50. What Is Consensus Algorithm?\
+The method of gaining consensus on a change of data over the system or any distributed network is known as a consensus algorithm. They are widely used in blockchains because they enable the network of unknown nodes to reach consensus on the data that is being stored or shared. Proof-of-Stake (PoS) and Proof-of-Work(PoW) are the most popular consensus algorithms.
+
+
+49. What is Transparent and incorruptible in blockchain?
+
+Every ten minutes, the blockchain network checks in with itself to ensure that it is in a state of consensus. The network, which functions as a self-auditing ecosystem of digital value, reconciles any transaction that occurs in ten-minute intervals. A “block” refers to a collection of these transactions. As a result, two critical properties emerge from this they are:
+
+
+47. What Are the Drawbacks of Blockchain?
+
+Some Blockchain Solutions Use So Much Energy Because Blockchain Isn’t a Distributed Computing System
+It’s difficult to incorporate and manage complex technologies.
+There are also problems with scalability.
+Data is unchangeable.
+It can be inefficient at times because network speed and transaction costs fluctuate.
+Human error has not yet been eradicated.
+Not entirely secure.
+
+
+46. What is a Private Key?
+
+A private key is an alphanumeric term that is used to encrypt and decrypt data associated with a public key. In blockchain security, It is also a component of the cryptographic algorithms. The key has been allocated to the key generator and can only be used by him. If he fails to do so, someone can gain access to the wallet’s information or data, as well as the address for which the private key is stored.
+
+
+45. What is a Public Key?
+The cryptographic algorithm that enables peers in a blockchain to obtain funds in their wallet uses a public key. A pair of keys is created when a public key is connected to a private key. The private-public key pair is used to ensure that the blockchain’s security is maintained. A public key is a string of alphanumeric characters that is unique to a specific node or address.\
+
+
+
+44. Name the steps that are involved in the Blockchain project implementation?
+
+There is a total of six steps involved in the blockchain project implementation process and they are:
+
+Identifying the requirements
+Consideration of screen ideas
+Blockchain project production
+Analysis of the Security Implementation’s Feasibility
+Managing and overseeing the project
+
+
+
+42. Can you name some of the popular consensus algorithms?
+
+PBFT (Practical Byzantine Fault Tolerance)
+Proof-of-work
+Proof-of-stake
+Delegated proof-of-stake
+Proof-of-elapsed time
+
+
+43. What Is the Difference Between Proof-Of-Stake (Pos) And Proof-Of-Work (Pow)?
+
+The two most popular consensus algorithms, PoW, and PoS can be differed by their operation. PoW consumes a lot of resources, while PoS does not. Other significant differences include the need for a lot of computation power in PoW versus none or very little computation power in PoS. When compared to PoW, PoS is both more cost-effective and has a quicker completion time.
+
+
+
+
+40. What are the threats to the information you are familiar with?
+
+
+In the current situation, there are numerous risks to knowledge. Many hackers have become involved and are introducing new techniques to hack information and servers that hold financial information as a result of the rise in online transactions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

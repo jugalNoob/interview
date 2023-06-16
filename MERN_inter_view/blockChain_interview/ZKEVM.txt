@@ -1,0 +1,65 @@
+1::ZK-EVM GitHub Repository: 
+
+2::ZK-EVM Developer Documentation: The ZK-EVM team maintains develope
+
+3::ZK-EVM Community: The ZK-EVM project has an active community of 
+
+4::ZK-EVM Hackathons: The ZK-EVM team regularly 
+
+
+|||||||||||||||||||||||||||ZKEVM||||||||||||||||||||||||||||||||||||||||||
+
+
+zero Knowledge Proof + EVM
+
+
+Qwhat is EVM?
+
+Ans::smart contract --> solc compiler -> bytecode  -> EVM
+
+Qwhat is EVM?
+
+Ans:Thre ethereum virtual machine (evm) is a Decentralized virtual machine that executes smart contracts on the
+EthereUm BlockChain it is the runtime environment Ethereum smart contract and is responsible for processing
+ transaction and executing the code of smart contract
+
+
+
+Qwhat is ZK?
+ANS:• A zero-knowledge protocol is a method by which one party (the prover) can prove  to another party (the verifier) 
+that something is true, without revealing any  information apart from the fact that this specific statement is true.
+
+
+Qwhat ZkEVM in one Silde
+
+ANS:zkEVM -> virtual machine > zeo knowLedge proof  >EVM Compatible
+
+
+Q::zkEVBM working Example
+
+ANS:smart contract  --->  zk Proofs Cryptographic Techniques  -->Validation
+
+https://wallet.polygon.technology/zkEVM-Bridge/bridge -- important
+
+
+
+
+Q::what is architecture 
+
+AND::1The  execution environment 
+
+2::The proving circuit
+
+3::the verifer contract
+
+
+Qwhat is zkEVM has a lyers 2 blockChain
+
+QWhat is Types zkEVM
+
+ANs::zkEVM community edition
+
+::
+
+
+

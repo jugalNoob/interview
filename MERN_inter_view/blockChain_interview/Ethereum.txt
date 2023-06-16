@@ -1,0 +1,293 @@
+1:what is ethereum
+2:smart contract
+3:dapps
+4:evm and gas
+5:Daos
+7:hard and soft Fork
+8:Doa attack
+9:ico
+9:alt coin
+
+
+1::what is ethereum 
+
+
+.ethereum is an open-sources blockchain platform
+
+.node-ethereum - peer to peer 
+
+
+type of node ->
+
+
+1:full node
+
+2:light node
+
+3:archive node
+
+
+
+full node is minor ethereum -> locally stores  a  copy of entire blockchain
+->verifies and validates all the block
+
+
+light node 
+-> and trnsition 
+->no ssd storgae
+
+stores only the block header&index.depends on full node
+
+for low capacity devies which cannot afford to store the gigabytes of data
+
+
+archive node
+
+stores everything kept in the full node and built an  archive of historical data
+
+
+
+2:::account in ethereum
+
+.an ethereum account is an entity with an ether (ETH) balance
+that can send or receive transctions on ethereum
+
+
+
+ type of ethereum accoun 
+
+1:externally owned account (eoa)
+
+
+create a wallet 
+privat key --password
+
+public key --email
+
+send teanstion 
+
+receive transation 
+
+smart contract
+
+
+
+
+2:contract account (CA)
+
+
+contrat  account enter ethereum blockchain
+
+::controlled by contract code.
+
+::deploy smart contract in ethereum blockchain nad provider contract address
+
+
+
+EOA
+
+1:privated key is need
+
+2:controlled by human
+
+
+3:no gas is associated
+
+4:has a unique address
+
+5:holds eth balance
+
+CA
+
+1:no private or public key is need
+
+2:controlled by contract code
+
+3:gas is associated
+
+4:has a unique address
+
+5:holds ETH Balance
+
+
+
+
+
+QDemo of eth block chain?
+
+QWhat is Daos ?
+
+ANS::decentralized autonomous organization
+
+::contract code is if and else
+
+
+:::DAO
+
+.fully democratized
+
+.voting required
+
+.no trusted intermediary to count vote.
+
+.services offered are handled automatically
+
+.all activity is transparant and fully public.
+
+
+:::A traditional organization
+
+.usually hierarchical
+
+.voting may or may not require
+
+.outcome odf voting must be handles manually
+
+.requires human handling , or centrally controlled automation.
+
+.activity is typically private and limited to public
+
+
+
+Qwhat is the DAO attack
+
+::30.04.2016.live 
+:: 15.05.2016.the dao raised over us100$ 
+:: 16.06.2016.the dao is attacked problem in contract not ethereum blockchain
+::17.06.2016.first proposal to counter the attack
+::20.07.2016 hard forf completed
+
+
+
+
+Qwhat is hardfork
+
+ANS:: ethereum  classes old 
+
+ethereum block  new blockchain block-no-1919999
+
+
+
+..hardfork
+.during a hard fork , software impplemnting a protocole and its mining
+procedures is upgraded;
+
+.once a user upgrade their software that version rejects all transations
+from older software , effectively creating a new branch f the blockchain
+
+
+.
+
+
+
+Qwhat is softfork;
+
+.soft forks are change to protocol , but the end product remains unchange
+
+.a soft fork is a backward-compatible upgrade meaning that the upgrade nodes
+can still communicate with non-upgrade ones;
+
+.upgrade the blockchain and use  best  function;
+
+.old nodes (not upgrade node)could still validate block and transaction (the
+
+formatting) diidnot braek the rules)but they just wouldn't understand them;
+
+
+
+
+
+Qwhat is pos and pow
+
+ANS::ETH 2.0
+
+.scalability
+.security
+.suntainibility
+
+
+ETH 2 major upgrade
+
+.proof of stack
+.sharding
+
+::pos
+
+.it is validator --> system mini eth32
+.work properl 
+
+
+:::proof of work
+
+.miners
+
+.high performance hardware required
+
+.lots of electricity required
+
+.the more hashing power youe have the more
+
+block you can validate
+
+
+.competition
+
+:::proof of stack
+
+.validators
+
+.mobile or laptop are enough
+
+.not much electricity is required
+
+.the more ETH you stake the more block you
+can validate
+
+.remdom selection is there;
+
+
+
+
+
+Qwhat is sharding;
+
+
+::network 1
+
+::network 2
+
+::network 3
+
+.23major benfits
+
+..transaction per second inerease
+..powerful and expensive computer will not be needed
+..more validators will join
+..energy consumption will reduce
+
+QBeacon + ethereum =>beacon chain + ethereum mainnet
+
+::beacon chain + ethereum mainnet + shard chain = beacon chain + ethereum mainnet  + shard chain
+
+
+
+
+
+
+Qwhat is ico;
+ANS::initial coin offering (ico)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+1::why study metavers?
+2::what is metaverse?
+3::metaverse VS vr
+4:Augmented Reality
+5:metaverse pyramid
+6::metavers and blockchain
+7::metaverse applications
+8::obstruction in meta
+9::meta dangeous
+10::meta solution 
+11::it is the right time?
+
+Qwhat study meta?
+
+type:
+.ineternet
+.blockcahin
+.vr
+
+
+Qwhat is meta?
+
+.the prefix meta comes from greek and mens byond after or across.
+
+.verse from univers
+
+define::
+
+A metaverse is a network of 3d virtual world foused on social connection.
+is futurism and science ficition it is often described as a hypothetical iteration of teh
+internet as a single universal virtual world that is facilitated by use of virtual and augmnet reality hadsets;
+
+
+physical world       virtual world\
+
+
+
+
+2:meta VS vr
+
+importnat meta
+
+.no VR headset
+
+.buy and selling
+
+
+.internet
+
+
+
+Qwhat is AR?
+
+ANS::ar reality is an interactive experience of a real-world enviroment where
+the object that reside in the real world are enhanced computer-genearted percptrual information ,
+information sometimes across multiple sensory modalities includeing visual , auditory , haptic, somatosensory and olfactory
+
+
+
+
+
+
+Qwhat is meta application?
+
+1:travelling
+2:social connection
+3:games
+
+
+Qwhat layers of metaverse?
+
+ANS::infrastructure layer(ethereum,polygon,solana etc.) --blockchain
+
+::toekn layers(sand ,mana , axs etc) 
+::land layer(snadBox) buy in meta
+::nft
+::human
+
+
+
+Qwhat companies are eccited about  meta?
+
+ANS::NFT +META
+
+
+
+Q:Dangerous  of Meta?
+ANS::
+
+
+Q:stage one 
+
+ANS:HADSTE
+2::suite
+3::chipe
+
+
+
+Q::::Types of metaverse
+
+AND:::Metaverse Development
+2::Metaverse Game Development
+3::Metaverse Virtual Mall Development
+4::Metaverse-as-a-Service
+5::Metaverse Real Estate Development
+6::Enterprise Metaverse Services
+7::Metaverse Token Development
+8::Metaverse NFT Marketplace
+9::Metaverse App Development
+10::Metaverse Development
+11:Metaverse ECommerce Store Development
+
