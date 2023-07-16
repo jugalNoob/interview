@@ -50,26 +50,20 @@ ANS::
 ||layer2<-->important
 
 
-.scalability <--> polygon faster transcation
-
-
+.scalability <--> polygon faster transcation--
 .bitcoin lightning network
-
-
 .big size of bitcoin blockchain
-
-
 .onchain  and offchain
 
-
-
-
-
-
+::lottery.sol
 
 
 ||layer1
 
+::Token Contracts: ERC-20 ::ERC-721
+:: Identity Contracts: Identity contracts provide decentralized identity solutions on the blockchain. 
+::Governance Contracts: Governance contracts facilitate decentralized decision-making and voting within a blockchain ecosystem. 
+::crowdfund.sol
 .secuirty
 
 .example - pow.pos etc
