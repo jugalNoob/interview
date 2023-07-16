@@ -25,7 +25,7 @@ ANS::
 
 3:what is layers 
 
-
+yield-farming.sol
 
 
 
@@ -34,31 +34,34 @@ ANS::
 ::types of layer is 
 
 
-||layer3
+||layer3|||||||||||||||||||||||||||||
 
 
 .ui interface
 
 .ux interface
+Non-Fungible Token (NFT) Contracts: NFT
+yield-farming.sol
 
 
 
 
 
-
-
-||layer2<-->important
-
-
+||layer2<-->important||||||||||||||||||||||||||||||
+::Payment Channel Networks: Payment channel networks, such as the Lightning Network 
+::Layer 2 refers to scaling solutions built on top of Layer 1 blockchains. These solutions aim to address the scalability limitations of Layer 1 by moving a significant portion of transaction 
 .scalability <--> polygon faster transcation--
 .bitcoin lightning network
 .big size of bitcoin blockchain
 .onchain  and offchain
 
 ::lottery.sol
+::staking.sol
 
 
-||layer1
+||layer1||||||||||||||||||||||||||
+
+:::Smart Contracts: Layer 1 provides the infrastructure for executing smart contracts, which are self-executing contracts with predefined rules and conditions. Smart contracts enable the creation of decentralized applications (DApps) and the execution of trustless transactions.
 
 ::Token Contracts: ERC-20 ::ERC-721
 :: Identity Contracts: Identity contracts provide decentralized identity solutions on the blockchain. 
@@ -66,11 +69,13 @@ ANS::
 ::crowdfund.sol
 .secuirty
 
+::Transaction Validation and Verification: Layer 1 validates and verifies transactions, ensuring that they adhere to the rules and conditions of the blockchain protocol.
+
 .example - pow.pos etc
 
 
 
-||layer0 fundcumation
+||layer0 fundcumation||||||||||||||||||||||||||||
 
 .it is a prgram code of layer0
 
