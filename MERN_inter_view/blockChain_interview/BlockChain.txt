@@ -53,6 +53,9 @@ so in  total it has 64*4 bit 256bits
 website --> sha256 --> https://passwordsgenerator.net/sha256-hash-generator/
 
 
+Qwhat immutable ledger ?
+
+ANS::you  money --> salesDeef --> institution --> houses ;
 
 
 4:/distributed p2p network?
