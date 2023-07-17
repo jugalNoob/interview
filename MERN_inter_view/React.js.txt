@@ -1,3 +1,22 @@
+Qwhat dom --
+
+D -- Html
+Object -- oops <html> <title> element <h2/> 
+models -- complete html code
+
+Q Framework vs Library: Full
+1::It comprises of lot of APIs , compilers , support programs , libraries etc.
+
+Its example are AngularJS , Spring , NodeJS , etc.
+
+
+|||||||||||Library 
+tr = "Geeks.ForGeeks"
+var pos = str.lastIndexOf("."); // simply calling function of string librar
+Its example are JQuery , React JS , etc. 
+///Coockies  
+///Crypto /
+
 QWhat is React?
 ANS:|/|React is a front-end JavaScript library that allows you to build user interfaces from reusable UI 
 components. React uses server-side rendering to provide a flexible and performance-based solution.
