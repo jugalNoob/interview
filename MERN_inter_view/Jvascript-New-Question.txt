@@ -3,7 +3,7 @@ AND::JavaScript is a popular web scripting language and is used for client-side 
 
 1:: JavaScript is not limited to just client-side development. It is also widely used on the server-side through platforms like Node.js, enabling developers to build full-stack web applications. 
 
-
+2::Asynchronous operations: JavaScript can handle asynchronous tasks using callbacks, promises, or async/await syntax. Asynchronous operations include fetching data from servers, making API calls, or waiting for user input. This allows for non-blocking execution, 
 
 4. What are the features of JavaScript?
 
