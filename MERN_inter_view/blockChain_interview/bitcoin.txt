@@ -236,6 +236,8 @@ Continuous Mining: Mining is an ongoing process, with new blocks added to the bl
 
 Qwhat is hat is timestamp bitcoin
 
+Link ::: https://www.unixtimestamp.com/
+
 Block Timestamp: The timestamp in Bitcoin is recorded in the header of each block. The block header
 
 Timekeeping: The timestamp represents the time when the miner started the process of mining the block. It is typically set by the miner themselves, based on their local system clock. However, it's important 
@@ -251,8 +253,6 @@ Difficulty Adjustment: The timestamp plays a role in the difficulty adjustment a
 
 
 Proof-of-Work Consensus: The timestamp, along with other components of the block header, is used as input for the proof-of-work (PoW) algorithm. Miners compete to find a hash value that meets 
-
-
 
 
 
