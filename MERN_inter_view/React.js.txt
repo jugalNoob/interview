@@ -69,6 +69,12 @@ Note- We can create react applications without using JSX as well.
 
 7. What are the differences between functional and class components?
 
+State and Lifecycle: Functional components were originally stateless and could not handle lifecycle methods. However, 
+
+Component Structure: Functional components are typically simpler and more concise. They are focused on rendering UI based on the provided p
+
+Code Organization: Functional components promote a more functional programming style and make it easier to separate concerns and reuse logic
+
 
 8. What is the virtual DOM? How does react use the virtual DOM to render the UI?
 
