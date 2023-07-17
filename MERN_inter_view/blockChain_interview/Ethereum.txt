@@ -274,11 +274,22 @@ QBeacon + ethereum =>beacon chain + ethereum mainnet
 
 
 
-Qwhat is ico;
+QWhat is ico;
 ANS::initial coin offering (ico)
 
 
+Qwhat is ethereUm 2 ?
+ANs::Scalability 
+Security
+sustainibility
 
+upgrader|||||||||
+
+Proof os stacks 
+
+validator  --user become a stack a ether 32eth mini
+
++Transaction free refund 
 
 
 
