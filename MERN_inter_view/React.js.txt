@@ -14,14 +14,123 @@ It allows developers to create seamless UX and complex UI.
 ||It supports a React Native library that offers efficient performance.
 
 
+3. What are the limitations of React?
+
+The few limitations of React are as given below:
+
+React is not a full-blown framework as it is only a library.
+The components of React are numerous and will take time to fully grasp the benefits of all.
+It might be difficult for beginner programmers to understand React.
+Coding might become complex as it will make use of inline templating and JSX.
 
 
+
+
+5. What are keys in React?
+
+A key is a special string attribute that needs to be included when using lists of elements.
+
+use array.map
+
+not loop
+
+Keys help react identify which elements were added, changed or removed.
+
+Keys should be given to array elements for providing a unique identity for each element.
+
+Without keys, React does not understand the order or uniqueness of each element.
+
+6. What is JSX?
+
+JSX stands for JavaScript XML. It allows us to write HTML inside JavaScript and place them in the DOM without using functions like appendChild( ) or createElement( ).
+
+As stated in the official docs of React, JSX provides syntactic sugar for React.createElement( ) function.
+
+Note- We can create react applications without using JSX as well.
+
+7. What are the differences between functional and class components?
+
+
+8. What is the virtual DOM? How does react use the virtual DOM to render the UI?
+
+As stated by the react team, virtual DOM is a concept where a virtual representation of the real DOM is kept inside the memory and is synced with the real DOM by a library such as ReactDOM.
+
+
+
+15. What is React Hooks?
+React Hooks are the built-in functions that permit developers for using the state and lifecycle methods within React components. These are newly added features made available in React 16.8 version. 
+
+
+16. Explain React Hooks.
+What are Hooks? Hooks are functions that let us “hook into” React state and lifecycle features from a functional component.
+
+React Hooks cannot be used in class components. They let us write components without class.
+
+19. Why do React Hooks make use of refs?
+
+Earlier, refs were only limited to class components but now it can also be accessible in function components through the useRef Hook in React.
+
+
+Managing focus, media playback, or text selection.
+Integrating with DOM libraries by third-party.
+Triggering the imperative animations.
+20. What are Custom Hooks?
 
 Qwhat is component?
 ANS:|/| A piece of code that can resue like function
 |/|but more powerfull than function
 |/|2 type
 |/|class and function component
+
+
+21. Explain Strict Mode in React.
+StrictMode is a tool added in version 16.3 of React to highlight potential problems in an application. It performs additional checks on the application.
+
+
+23. What are the different ways to style a React component?
+class RandomComponent extends React.Component {
+ render() {
+   return (
+     <div>
+       <h3 style={{ color: "Yellow" }}>This is a heading</h3>
+       <p style={{ fontSize: "32px" }}>This is a paragraph</p>
+     </div>
+   );
+ }
+}
+
+
+27. What are the different phases of the component lifecycle?
+
+28. What are the lifecycle methods of React?
+eact lifecycle hooks will have the methods that will be automatically called at different phases in the component lifecycle and thus it provides good control over what happens at the invoked point. It provides the power to effectively control and manipulate what goes on throughout the component lifecycle.
+
+31. Differentiate React Hooks vs Classes.
+
+It is used in functional components of React.
+
+It will not require a declaration of any kind of constructor.
+
+It does not require the use of this keyword in state declaration or modification.
+
+It is easier to use because of the useState functionality.
+
+React Hooks can be helpful in implementing Redux and context API.
+
+34. What is React Router?
+BrowserRouter: It is a router implementation that will make use of the HTML5 history API (pushState, popstate, and event replaceState) for keeping your UI to be in sync with the URL. It is the parent component useful in storing all other components.
+Routes: It is a newer component that has been introduced in the React v6 and an upgrade of the component.
+Route: It is considered to be a conditionally shown component and some UI will be rendered by this whenever there is a match between its path and the current URL.
+Link: It is useful in creating links to various routes and implementing navigation all over the application. It works similarly to the anchor tag in HTML.
+35. Can R
+
+
+36. Explain conditional rendering in React.
+
+Using if-else conditional logic which is suitable for smaller as well as for medium-sized applications
+Using ternary operators, which takes away some amount of complication from if-else statements
+Using element variables, which will enable us to write cleaner code
+
 
 
 
