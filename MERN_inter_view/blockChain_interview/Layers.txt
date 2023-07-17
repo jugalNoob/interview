@@ -1,3 +1,11 @@
+1::Application layer -- > smart contract Dapps
+2::Consenusus layers --> transaction validation , pow , pos
+3::Network layers --> P2P , inter node  communication
+4::Data Layer --> Blocks , Ds , Immutable
+5::HardWare Layers
+
+
+
 QWhat is layer?
 ANS::
 
