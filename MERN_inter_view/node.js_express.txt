@@ -1,10 +1,20 @@
 1) What is Express.js?
-Express.js, or simply Express, is a free, open-source, lightweight, and
- fast backend web application framework for Node.js.
- It is released as open-source software under the MIT License.
-Express js is a node js web application framework that provides broad features for building web and mobile 
-applications. It is used to create a single page, multipage, and
- hybrid web application. Express js is high-performance, fast, unopinionated, and lightweight.
+ANS::Express.js is a popular and lightweight web application framework for Node.js, designed to build web applications and APIs. 
+It provides a set of robust features and utilities for creating server-side web applications with ease
+
+
+:::Key features of Express.js include:
+
+..Routing: Express.js allows you to define routes and handle HTTP requests (GET, POST, PUT, DELETE, etc.) for specific URLs and methods.
+
+..Middleware: Middleware functions are the heart of Express.js. They can perform various tasks such as logging, authentication, parsing request bodies, and more. 
+
+..Static File Serving: Express.js allows you to serve static files (like HTML, CSS, images, etc.) from a specified directory on your server.
+
+..Integration with other Node.js modules: Express.js can be used in conjunction with various modules and packages available in the Node.js
+ecosystem to handle tasks such as database interaction (e.g., MongoDB, MySQL), authentication, and more.
+
+
 
 
 2) What are some distinctive features of Express?
