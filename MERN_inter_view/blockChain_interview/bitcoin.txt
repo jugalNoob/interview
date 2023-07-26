@@ -150,12 +150,22 @@ A miner will will exhaust 0.1 billion nonce in 1 sec.
 
 Qwhat is transaction and UTXOs?
 
-ANS:>
+ANS:>arjun --> send 0.4btx
+Raj -> Me ..3 btc
+Alice->Alice -> Me 0.7 Btc 
+Bob -> Me 0.1 Btc ->
+
+In cryptocurrencies, an unspent transaction output (UTXO) is a distinctive element in a subset of digital currency models. 
 
 
-Qwhat is crypto wallets
-
+Qwhat is tranction fee?
 ANS:
+
+
+QWhat is crypto wallets
+ANS:block4 -- > Block3 --> block2--> Block1
+
+
 
 
 
@@ -171,6 +181,15 @@ Qwhat is private key and public Keys
 
 ANS:://\\tools.superdatascience
 
+
+
+
+
+
+
+Qwhat tool super Datascience webiste 
+
+ANS
 
 
 Qwhat is mempool?
@@ -234,7 +253,8 @@ Continuous Mining: Mining is an ongoing process, with new blocks added to the bl
 
 
 
-Qwhat is hat is timestamp bitcoin
+Qwhat is what is the timestamp of 
+bitcoin
 
 Link ::: https://www.unixtimestamp.com/
 
