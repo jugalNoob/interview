@@ -311,7 +311,14 @@ Optional
 
 ||||||||||||||||||||||||||||||||||||||||||||
 
-
+Ethereum
+P2P currency and smart contract
+Proof of work/ Proof of stake
+Ethash
+12-15 seconds
+3 ETH
+1 ETH = 278.98 USD
+A fee is calculated in gas
 
 
 
