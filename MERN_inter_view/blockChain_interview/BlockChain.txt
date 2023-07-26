@@ -9,6 +9,9 @@ hi iam jugal sharm astart a war
 
 1:://what is blockchain?
 
+2. How do you explain Blockchain technology to someone who doesn't know it?
+Blockchain technology is a distributed ledger, which stores transaction details in the form of immutable records or non-modifiable records (called blocks) which are secured using cryptography.
+
 What is Merkel Tree?
 
 ans:blockchain is a distributed immutable ledger 
