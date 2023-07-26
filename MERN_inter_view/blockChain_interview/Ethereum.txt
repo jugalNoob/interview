@@ -293,10 +293,23 @@ validator  --user become a stack a ether 32eth mini
 
 
 
+19. What is the difference between Bitcoin and Ethereum?
 
+P2P currency
 
+Proof of work
 
+SHA-256
 
+10 Minutes (approx.)
+
+12.5 BTC
+
+Optional
+
+1 BTC = 6934.34 USD
+
+||||||||||||||||||||||||||||||||||||||||||||
 
 
 
