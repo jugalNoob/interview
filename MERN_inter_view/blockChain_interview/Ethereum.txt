@@ -340,4 +340,19 @@ Test Network, e.g., Rinkeby and Ropsten
 Live Network, i.e., the main Network
 
 
+19. How to Mine Ethers?
+
+Answer: To mine ethers, one needs to have a wallet and tools such as Geth CLI. With it, you need to participate in the Network and help add transactions to the blocks.
+
+
+26. What Is Block Time and Average Block Size in Ethereum?
+Answer: The block time is  14 seconds., whereas the average block size is  2kb.
+
+
+27. Can A Transaction Be Kept Hidden?
+Answer: In the case of the public Ethereum network, no transactions can be kept hidden. All transactions are public.
+
+30.What Is Geth?
+Answer: Geth is a command-line interface used when running a full Ethereum node. It’s one of the best blockchain tools out there.
+
 
