@@ -320,5 +320,24 @@ Ethash
 1 ETH = 278.98 USD
 A fee is calculated in gas
 
+11. What Are the Real-World Use Cases of Ethereum?
+..Decentralized Finance
+..Digital Identity:
+..Health applications:
+..Supply Chain:
+..Payments: 
+
+13. What Is Wei? How Does It Differ from Ether?
+
+Answer: Wei is the smallest unit in the Ether cryptocurrency that is used in the Ethereum network.
+
+18. Tell Us About the Type of Ethereum Networks That Exist.
+
+Answer: There are three types:
+
+Private Network
+Test Network, e.g., Rinkeby and Ropsten
+Live Network, i.e., the main Network
+
 
 
