@@ -110,6 +110,35 @@ CA
 5:holds ETH Balance
 
 
+Qwhat etherum gas?
+ANS::10*3-6=45 --> required gas 
+-->update in smart smart contrat -- requira gas
+-->deploy smart contract --require gass  price
+
+/////////////////////
+Gas price 
+
+A ----->B
+car ----->car
+
+1gwei=10^9eth
+1 gas price =1000 gwei
+..The higher the gas price the faster the transaction will be  mined it
+just like the transaction in bitcoin
+
+
+2::Gas Limit 
+..it is the maximum gas the transaction tranaction can consume 
+
+transaction gas limit=21,000 uints 
+
+21,000*100=210,000 gwei or 0.0021ETH
+
+
+5::Etherem block Demo
+
+.block 
+.age -->block time 
 
 
 
