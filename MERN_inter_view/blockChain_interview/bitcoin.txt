@@ -190,6 +190,22 @@ https://tools.superdatascience.com/blockchain/public-private-keys/keys
 
 
 
+Qwhat is HD wallet Hierachically deterministic wallet
+
+
+Ans:you send bitcoin 
+AND:::Master -->Private1 --> public1 --> Address1
+
+second trantain --> private key2 --> public2 --> address2
+
+
+Q what is public key or bitcion address?
+Ans::public key --> send transtion
+
+bitcoin address --> recieve transtion
+
+
+
 
 Qwhat tool super Datascience webiste 
 
