@@ -200,9 +200,9 @@ second trantain --> private key2 --> public2 --> address2
 
 
 Q what is public key or bitcion address?
-Ans::public key --> send transtion
+Ans::Sending Transactions: You use your private key to sign transactions. The recipient uses your public key to verify the signature.
 
-bitcoin address --> recieve transtion
+Receiving Transactions: You share your Bitcoin address (derived from your public key) with others. They send cryptocurrency to that address, and the associated public key is used to verify the transaction's authenticity.
 
 
 
