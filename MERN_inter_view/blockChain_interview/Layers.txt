@@ -6,6 +6,50 @@
 
 
 
+0::Layer 0  projects
+
+Mainnet 
+
+Cross-Chain Operations
+
+Sidechains
+
+cryprto -->4. Polkadot   -->3. Avalanche
+
+
+1::Layer 1 proejct
+crypto --> ethereum --> Bnb Chain  --> Polkadot
+
+Consensus Mechanism:
+
+(PoW)
+(POS)
+
+Security: Layer 1 blockchains are designed to provide a high level of security through cryptographic techniques and decentralized distribution of data.
+
+Decentralization: 
+
+
+2:::layer 2
+
+crypto --> Polygon --> ARB  --> OPT
+
+Lightning Network (Bitcoin): 
+
+Rollups (Ethereum): Rollups are Layer 2 solutions for Ethereum that bundle multiple transactions into a single transaction, 
+
+Polygon (formerly Matic Network): Polygon is a Layer 2 scaling solution for Ethereum that offers a framework for building and connecting Ethereum-compatible blockchain networks.
+
+Arbitrum (Ethereum): Arbitrum is a Layer 2 scaling solution that uses an optimistic rollup approach. 
+
+
+
+3::Layer 3 
+
+crypto --> Mana Uniswap -- > Makers
+
+
+
 QWhat is layer?
 ANS::
 
