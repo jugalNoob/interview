@@ -498,4 +498,106 @@ Qwhat is useEffect?
 ANS:this is hook for use lifecycle methods in function compoenets
 
 
+Q what is memoization ?
+import React from 'react';
+
+const MyComponent = React.memo(({ value }) => {
+  console.log('Rendering MyComponent');
+  return <div>{value}</div>;
+});
+
+export default MyComponent;
+
+
+
+Q what is the generator function?
+
+
+
+
+Q what is the high order function?
+
+const numbers = [1, 2, 3, 4, 5];
+
+const doubled = numbers.map(function (num) {
+  return num * 2;
+});
+
+const evenNumbers = numbers.filter(function (num) {
+  return num % 2 === 0;
+});
+
+const sum = numbers.reduce(function (acc, num) {
+  return acc + num;
+}, 0);
+
+console.log(doubled);     // Output: [2, 4, 6, 8, 
+
+
+Q what is reducer?
+
+Q What is default parameter?
+
+import React, { useState } from 'react';
+
+function MyComponent(props) {
+  // Define initial state values using useState
+  const [name, setName] = useState(props.name || "Default Name");
+  const [age, setAge] = useState(props.age || "Default Age");
+
+  return (
+    <div>
+      <p>Name: {name}</p>
+      <p>Age: {age}</p>
+    </div>
+  );
+}
+
+export default MyComponent;
+
+
+Q what is spread opeartion?
+
+Copying Arrays:
+const originalArray = [1, 2, 3];
+const newArray = [...originalArray]; // Creates a copy of originalArray
+
+
+Concatenating Arrays:
+
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+const concatenatedArray = [...array1, ...array2]; // [1, 2, 3, 4, 5, 6]
+
+
+Merging Objects:
+
+const values = [1, 2, 3];
+const sum = (a, b, c) => a + b + c;
+const result = sum(...values); // Equivalent to sum(1, 2, 3)
+
+
+Passing Function Arguments:
+
+const values = [1, 2, 3];
+const sum = (a, b, c) => a + b + c;
+const result = sum(...values); // Equivalent to sum(1, 2, 3)
+
+Cloning Objects:
+const originalObj = { a: 1, b: 2 };
+const newObj = { ...originalObj, c: 3, b: 4 }; // { a: 1, b: 4, c: 3 }
+
+Q what is async and wait?
+
+Q what is pure components?
+
+Q what is clouser?
+
+Q what is hosting ?
+
+Q what  create a middle ware?
+
+
+
+
 
