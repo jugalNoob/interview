@@ -7,6 +7,31 @@
 
 
 
+Q Consenus POs , pow , pob , poa , Proof of elapsed Time?
+
+Ansc POW 
+1::Miner
+2:Block Reward  --> 
+
+POS
+1::Validators
+2::Transaction Fees --> 
+3::
+
+
+WHat is proog burn?
+
+Aans::Burn 
+
+add the Block
+
+Q what is proof of activity?
+ANS::
+
+
+Q what is coinbase Transaction?
+
+Ans::
 
 
 0::Layer 0  projects
