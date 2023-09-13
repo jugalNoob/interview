@@ -24,6 +24,18 @@ Qwhat is timestamp bitcoin
 
 
 
+Q what public key vs bitcoin address
+
+ANS: bitcoin address --> receive crypto
+
+public address --> deposit crypto
+
+
+Q what is transaction fee in Bitcoin?
+
+Ans::
+
+
 
 Qwhat is bitcoin
 
