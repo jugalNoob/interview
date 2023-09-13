@@ -1,8 +1,11 @@
-1::Application layer -- > smart contract Dapps
-2::Consenusus layers --> transaction validation , pow , pos
-3::Network layers --> P2P , inter node  communication
-4::Data Layer --> Blocks , Ds , Immutable
-5::HardWare Layers
+0::Application layer -- > smart contract Dapps --> application cross 
+1::Consenusus layers --> transaction validation , pow , pos -->  ether.js
+2::Network layers --> P2P , inter node  communication --> polygun
+3::Data Layer --> Blocks , Ds , Immutable --> defi 
+4::HardWare Layers
+
+
+
 
 
 
@@ -72,23 +75,14 @@ ANS::
 .like bitcoin --> not scalable  -->yes secure  --> secure
 
 
-
-
-
 3:what is layers 
-
 yield-farming.sol
 
 
 
 
-
 ::types of layer is 
-
-
 ||layer3|||||||||||||||||||||||||||||
-
-
 .ui interface
 
 .ux interface
