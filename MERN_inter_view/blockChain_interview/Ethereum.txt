@@ -1,3 +1,10 @@
+An ERC-20 token is a type of digital asset or cryptocurrency that is built on the Ethereum blockchain, 
+following a specific standard known as the ERC-20 standard. ERC stands for Ethereum Request for Comment, 
+and 20 is the unique identifier for this particular standard.
+
+
+
+
 1:what is ethereum
 2:smart contract
 3:dapps
@@ -14,21 +21,24 @@
 
 .ethereum is an open-sources blockchain platform
 
-.node-ethereum - peer to peer 
 
+Q types of node 
+
+.node-ethereum - peer to peer 
+It's a software client 
 
 type of node ->
 
 
-1:full node
+1::Full Nodes: Full nodes download and validate the entire Ethereum blockchain,
 
-2:light node
+2::Light Nodes (or Light Clients): Light nodes do not download the entire blockchain. Instead,  ||| use for tranaction ||stor black header index block number
 
-3:archive node
+3::Archive Nodes: Archive nodes are a type of full node that not only store the current state of the blockchain but also maintain historical data,
 
+4::Parity Nodes: Parity is one of the Ethereum client implementations  , and Parity nodes refer to nodes running this specific software client.
 
-
-full node is minor ethereum -> locally stores  a  copy of entire blockchain
+full node is minor ethereum -> locally stores  a  copy of entire blockchain 
 ->verifies and validates all the block
 
 
@@ -47,7 +57,7 @@ stores everything kept in the full node and built an  archive of historical data
 
 
 
-2:::account in ethereum
+2:::account in ethereum  |||||||
 
 .an ethereum account is an entity with an ether (ETH) balance
 that can send or receive transctions on ethereum
@@ -69,9 +79,6 @@ send teanstion
 receive transation 
 
 smart contract
-
-
-
 
 2:contract account (CA)
 
@@ -108,6 +115,24 @@ CA
 4:has a unique address
 
 5:holds ETH Balance
+
+Q what is samrt contract?
+
+ANS: Code-Based: Smart contracts are written in programming languages tha
+
+Immutable: Once deployed, smart contracts are generally immutable, meaning their code and terms cannot be
+altered unless specifically designed to allow upgrades or changes.
+
+Decentralized: Smart contracts are executed on a decentralized blockchain network, which ensures that there's no single point of failure or control.
+
+Token Sales (ICO/STO): Raising funds by selling tokens to investors.
+Supply Chain Management: Tracking the movement of goods and verifying their authenticity.
+Decentralized Finance (DeFi): Automated lending, borrowing, and trading of digital assets.
+Insurance: Automating the claims process based on predefined conditions.
+Real Estate: Facilitating the purchase and transfer of property.
+Voting: Secure and transparent voting systems.
+Gaming: Implementing in-game assets and rules.
+
 
 
 Qwhat etherum gas?
@@ -151,7 +176,11 @@ ANS::decentralized autonomous organization
 ::contract code is if and else
 
 
-:::DAO
+:::DAO |||||||||||||||||||||||||||||||||||||||||||||||
+
+Decentralized autonomous organization (DAO)
+
+DAO is smart contract prgramming use a if else
 
 .fully democratized
 
@@ -189,7 +218,7 @@ Qwhat is the DAO attack
 
 
 
-Qwhat is hardfork
+Qwhat is hard fork
 
 ANS:: ethereum  classes old 
 
@@ -197,7 +226,10 @@ ethereum block  new blockchain block-no-1919999
 
 
 
-..hardfork
+..hardfork ||||||||||||||||||||||
+
+
+
 .during a hard fork , software impplemnting a protocole and its mining
 procedures is upgraded;
 
@@ -230,9 +262,12 @@ Qwhat is pos and pow
 
 ANS::ETH 2.0
 
-.scalability
-.security
-.suntainibility
+.scalability  --> more tranaction 
+.security  -->
+.suntainibility  --> engary control 
+.sharding  --> 
+
+.POS  -->  validator  
 
 
 ETH 2 major upgrade
@@ -281,11 +316,11 @@ can validate
 Qwhat is sharding;
 
 
-::network 1
+::network 1  -- database
 
-::network 2
+::network 2  --> database 
 
-::network 3
+::network 3  --> dadtabase
 
 .23major benfits
 
