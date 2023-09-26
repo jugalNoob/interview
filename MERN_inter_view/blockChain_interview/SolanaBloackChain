@@ -1,5 +1,24 @@
 Q What is Solana ?
 
+Solana is a high-performance blockchain platform designed for decentralized applications and cryptocurrencies.
+It was created to address some of the
+scalability and throughput limitations that earlier blockchain platforms, such as Ethereum and Bitcoin, have faced. 
+
+Types :::High Throughput: Solana is known for its high transaction throughput. It achieves this through a unique consensus mechanism 
+called Proof of History (PoH) in combination with the traditional 
+
+
+Scalability::::Solana is designed to scale horizontally, meaning it 
+can handle more transactions by adding more nodes to the network. 
+
+
+Smart Contracts::: Solana supports smart contracts, similar to Ethereum. Developers can build decentralized applications (dApps) 
+
+SOL Token: SOL is the native cryptocurrency of the Solana network. It is used for transaction fees, staking, and as collateral
+for various DeFi (decentralized finance) applications built on Solana.
+
+
+
 
 Q Why study solana BlockChain?
 
