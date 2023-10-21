@@ -1,3 +1,35 @@
+Q What is useState?
+Ans:: cont [count , setCount]=useState("jugal");
+
+-->count is StateVarible
+
+-->setUpdate is UpdateFunction
+
+-->useState(0) initalValue
+
+
+Q what is UseEffect ?
+Ans:useEffect is a hook in React that allows you to perform side effects in functional components.
+Side effects can include things like data fetching, manually changing the DOM, 
+
+Q  what is UseReducer?`
+
+useReducer is a hook in React that provides a way to manage and update state in functional
+components using a more controlled and predictable approac
+
+
+Q what is useContext?
+Ans::
+
+
+Q what is UseMemo
+useMemo is a hook in React that allows you to optimize the performance of your 
+functional components by memoizing the results of expensive calculations. It 
+
+
+Q what is useCallBack
+
+
 Qwhat dom --
 
 D -- Html
