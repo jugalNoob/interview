@@ -284,7 +284,7 @@ console.log(add5(7, 1)); // Output: 13
 
 outer();
 
-::::::::Closures, on the other hand, are closely related to lexical scope. A closure is a function that retains access to variables from its outer (enclosing) 
+::::::::Closures, on the other hand, are closely related to lexical scope. A closure is a function that retains access to variables from its outer (enclosing)  (enclosing) function's scope even after the outer function has finished executing.
 scope even after the outer function has finished executing.
 
 function outer() {
@@ -299,6 +299,22 @@ function outer() {
 
 const closureFunc = outer();
 closureFunc(); // Output: 10
+
+
+2. Currying:
+Currying is a technique where a function that takes multiple arguments is transformed into a
+series of functions, each taking a single argument. Curried functions are useful in situations
+where you want to partially apply arguments or create reusable functions
+with different configurations. Here's an example:
+
+function add(x) {
+  return function (y) {
+    return x + y;
+  };
+}
+
+const add5 = add(5);
+console.log(add5(3)); // This will print 8.
 
 
 5::JavaScript Promises and callbacks, as well as 
