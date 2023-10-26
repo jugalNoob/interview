@@ -1,0 +1,101 @@
+Q what is RestAPI vs API
+
+
+why we use Node.js?
+
+Ans::  Node.js allows developers to use JavaScript for server-side programming
+
+Q:: What is express.js?
+Ans:: Express.js is a minimal and flexible Node.js web application
+ framework that provides a robust set of features for building 
+ single and multi-page,
+
+What is advantage express?
+Ans::It helps you build single and multi-page applications 
+ quickly by providing a simple API for routing HTTP requests to your code.
+
+:::Routing: Express allows you to define routes for handling different HTTP  (e.g., GET, POST, PUT, DELETE)
+
+:::Templating Engines:   like EJS, Pug, or Handlebars to render dynamic HTML pages.
+
+:::Error Handling: 
+
+:::Middleware Ecosystem: There is a rich ecosystem of third-party middlewar
+
+Method-specific Middleware:
+
+Param Middleware: 
+
+Error-handling Middleware:
+
+Third-party Middleware: example body-parser
+
+Error-handling Middleware:
+
+app.use((err, req, res, next) => { /* error handling logic */ }).
+
+Router-level Middleware:
+
+Built-in Middleware ::xpress.json(), express.urlencoded(), and express.static().
+
+
+Q what is middleware?
+Middleware plays a crucial role in processing HTTP requests and responses, and it can
+be used to perform various tasks such as request processing, response handling, 
+
+const express = require('express');
+const app = express();
+
+// Middleware function 1
+app.use((req, res, next) => {
+  console.log('Middleware 1 - This is executed for every request.');
+  next(); // Pass control to the next middleware
+});
+
+// Middleware function 2
+app.use((req, res, next) => {
+  console.log('Middleware 2 - This is also executed for every request.');
+  next();
+});
+
+// Route handler
+app.get('/', (req, res) => {
+  console.log('Route handler - This is the final endpoint.');
+  res.send('Hello, World!');
+});
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
+
+Q what is cors in express.js 
+
+In Express.js, CORS (Cross-Origin Resource Sharing) is a middleware that helps control access to resources on a web server from web pages or web 
+applications hosted on different domains. C
+
+Q what is cookiParser
+Ans::cookie-parser is a middleware for Express.js, a web application framework for 
+Node.js. This middleware simplifies the process of parsing and managing HTTP cookies in Express applications. Cookies are small pieces of data that a server sends to a client's web browser, and the browser stores these cookies for later use, typically for tasks like user
+authentication or session management.
+
+Q what is router?
+In Express.js, a router is a way to group related routes and their 
+associated middleware into a smaller, modular, and more organized unit. Routers are a fundamental
+part of structuring Express applications,
+
+Q what is mongoose.Schema?
+mongoose.Schema is used to create a schema for your data models. A schema defines the shape or structure 
+of documents within a MongoDB collection
+
+Q what is mongoose
+Mongoose is an Object Data Modeling (ODM) library for MongoDB and a popular tool for building and interacting 
+with MongoDB databases in Node.js applications.
+
+Schema Definition: Mongoose allows you to define the structure of your data using schemas. A schema defines the fields, their types, and
+validation rules for documents in a MongoDB collection.
+
+Model Creation:  hey provide methods for performing CRUD (Create, Read, Update, Delete) 
+
+Data Validation: Mongoose supports data validation, allowing you to specify validation rules for fields in your schema. 
+
+
