@@ -5,6 +5,48 @@ Sure! Here are some commonly asked Node.js interview questions:
 Node.js is an open-source, server-side JavaScript runtime environment that allows developers to build scalable and high-performance applications. It is built on Chrome's V8 JavaScript 
 engine and provides an event-driven, non-blocking I/O model.
 
+
+...Node.js is a Runtime Env for Javascript
+
+
+
+..You can run js outside of the browers
+
+..Javascript can talk to native machine because of C++
+
+.. You can create webservers in javscript  language
+const http = require('http');
+const server = http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Hello, World!\n');
+});
+const port = 3000;
+server.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}/`);
+});
+
+
+..Client side vs server side
+
+::::Clent Side
+...Runs in the User's Browser: Client-side code, typically written in languages like HTML, CSS, and JavaScript, is executed in the user's web browser.
+
+..User Interface
+
+..Fast Response: Client-side processing provides faster responses t
+
+..Examples: HTML, CSS, JavaScript, and front-end frameworks like React, Angular, and Vue.js.
+
+
+::Servee Side
+
+...Runs on the Server: Server-side code is executed on a remote server, not in the user's browser.
+...usiness Logic: It's responsible for processing data, performing business logic, and interacting with databases
+...Secure: Server-side code can perform sensitive operations and is generally more secure as it's not visible or accessible to users.
+...Slower Response: Server-side processing can introduce latency because it often requires network requests from the client to the server and back.
+
+
+
 2:::What is the difference between Node.js and JavaScript?
 
 Node.js is a runtime environment for executing JavaScript code on the server-side, while JavaScript is a programming language that can be used both on the client-side (in web browsers) 
