@@ -47,6 +47,18 @@ server.listen(port, () => {
 
 
 
+
+Q what is Modules
+In Node.js, modules are a fundamental part of the CommonJS module system, which allows you to organize your JavaScript code into reusable 
+and encapsulated units. Node.js uses the require function to load and use modules, and you can create your own modules to structure your application.
+
+Q what is node.js Architecture
+
+Ans:: Client  -->send Request  -->Node.sj server
+
+
+
+
 2:::What is the difference between Node.js and JavaScript?
 
 Node.js is a runtime environment for executing JavaScript code on the server-side, while JavaScript is a programming language that can be used both on the client-side (in web browsers) 
