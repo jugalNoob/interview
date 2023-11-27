@@ -1,0 +1,240 @@
+:::Documnet  Update and Check Your 
+
+1::show dbs
+2::use Ones
+3::db.alldata.find()
+db.users.countDocuments()
+db.createCollection("newUser")
+db.url.renameCollection("fuckOf")
+db.users.deleteMany({}) //  all uses deletes 
+//Delete collection
+
+db.dataall.drop()
+db.users.getFullName()
+ones.users
+
+|||||||collection||||||||
+db.dataall.drop()
+db.users.getFullName()
+db.users.countDocuments()
+db.createCollection("newUser")
+db.url.renameCollection("Of")
+db.newUser.remove({ name: "John" })
+
+
+
+
+1:::Find all Method in Mongodb :::::::::::::::::::
+
+
+DataTypes in Mongoes ::DB:::::::::::::::::::::::::::::::::::::::::::::::::
+
+....String: Stores textual data. Example: "Hello, MongoDB!"
+
+I...nteger: Represents whole numbers. Example: 42
+
+..Double: Stores floating-point numbers. Example: 3.14
+
+...Boolean: Represents true or false values.
+
+...ObjectId: A unique identifier for each document, typically created automatically by MongoDB when a document is inserted.
+
+...Date: Stores dates and timestamps. Example: ISODate("2023-11-27T08:30:00Z")
+
+...Array: Holds an ordered list of values. Example: ["apple", "banana", "orange"]
+
+...Object: Stores embedded documents. Example: {"name": "John", "age": 30}
+
+...Null: Represents a null value.
+
+....Binary data: Stores binary data.
+
+....Regular Expression: Stores regular expression patterns
+
+
+
+
+|||||||||||||||||Comparison opeartion MongodDb|||||||| MongoDB Query Operators
+$eq
+$gt
+$lt
+$lte
+$in
+$nin
+$gte
+$ne
+
+
+
+// Find documents where the "age" field is equal to 30.
+{ age: { $eq: 30 } }
+
+// Find documents where the "price" field is greater than 10.
+{ price: { $gt: 10 } }
+
+// Find documents where the "quantity" field is less than or equal to 100.
+{ quantity: { $lte: 100 } }
+
+// Find documents where the "score" field is greater than or equal to 90.
+{ score: { $gte: 90 } }
+
+
+// Find documents where the "category" field is neither "A" nor "B".
+{ category: { $nin: ["A", "B"] } }
+
+// Find documents where the "color" field is not equal to "red".
+{ color: { $ne: "red" } }
+
+/ Find documents where the "category" field is neither "A" nor "B".
+{ category: { $nin: ["A", "B"] } }
+
+
+
+///Logical opeartion |||||| :::::::::::::::::::::::::::::::::::::::::::::::::::::::
+..not
+..or
+..and
+..nor
+
+db.dataall.find({
+  $or: [
+    { qty: { $lte: 36 } },
+    { qty: { $gte: 69 } }
+  ]
+})
+
+
+db.dataall.find({
+  $nor: [
+    { qty: { $lte: 36 } },
+    { qty: { $gte: 69 } }
+  ]
+})
+
+
+db.dataall.find({
+  $and: [
+    { qty: { $lte: 69 } },
+    { item: "mousepad" }
+  ]
+})
+
+||||||||||||||||||Query array in mongose|||||||||||
+
+db.dataall.findOne({"experience.company":"Amazon"}
+db.dataall.findOne({experience:{$size:3}}) // how user experience work in company and check size
+
+...$all
+db.students.find({hobbies: {$all:['jugal','sharma']}}) // all meaning is jugal sharma both is true
+
+..$in 
+db.students.find({hobbies: {$in:['jugal','sharma']}}) // all meaning is jugal sharma both is not  true
+
+
+
+|||||||||||||||||||||Insert One And Insert Many :::::::::::::::::::::::::
+
+ db.dataall.insertOne({
+  item: 'canvas',
+  qty: 100,
+  tags: ['cotton'],
+  size: { h: 28, w: 35.5, uom: 'cm' }
+});
+
+
+db.clloectyy.insertMany([{_id:"A" , name:"jugal"},{_id:"b" , name:"kinka"}] , {ordered:false}) ///!SECTION
+
+ db.collection.insertMany([
+  {
+    item: 'canvas',
+    qty: 100,
+    size: { h: 28, w: 35.5, uom: 'cm' },
+    status: 'A'
+  },
+  {
+    item: 'journal',
+    qty: 25,
+    size: { h: 14, w: 21, uom: 'cm' },
+    status: 'A'
+  },
+  {
+    item: 'mat',
+    qty: 85,
+    size: { h: 27.9, w: 35.5, uom: 'cm' },
+    status: 'A'
+  },
+
+]);
+
+
+////Delete MEthods In MongodDb:::::::::::::::::::::::::::::::::::::::::::::
+
+..DeleteOne
+
+db.dataall.deleteOne({item:"canvas"})
+
+
+...DeleteMany
+
+db.dataall.deleteMany({qty:10})
+
+
+....DeleteAll 
+
+db.dataall.deleteMany({}) // delteAllUser
+
+
+
+
+|||||||||Update Advance ||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$inc
+db.dataall.updateMany({} , {$inc:{qty:2}}) //$inc inment your age --> 20 $inc 22
+db.dataall.updateMany({} , {$inc:{qty:2}}) //$inc inment your age --> 20 $inc 18
+
+
+$min::db.dataall.updateMany({item:"jugal"} , {$min:{qty:30}})
+$max::db.dataall.updateMany({item:"karan"} , {$max:{qty:30}})
+
+...$mul //multiply
+db.dataall.updateOne({item:"mouspad"} , {$mul:{qty:2}}) // 2 is multiply 
+
+...$unset
+db.dataall.updateOne({item:"mouspad"} , {$mul:{qty:2}}) ///remover qty 
+
+...rename
+db.dataall.updateOne({qty:87} , {$rename:{item:"jugtalsharma"}})
+qty
+87
+jugtalsharma
+"mat"
+db.dataall.updateOne({} , {$rename:{item:"jugtalsharma"}}) // all user chaing
+
+...$upset
+db.dataall.updateOne({name:"coulu"} , {$set:{age:100}} , {upsert:true}) // name "coulu"in show and 
+
+add upsert insert data 
+
+
+|||||||||||Array  Update ||||||||
+db.users.updateMany(
+   { name: "amit" },
+   { $push: { hobbies: ["youtuber" , "movies"] } }  //add new array  in name amit
+)
+
+
+db.users.updateMany(
+   { name: "amit" },
+   { $addToSet: { hobbies: ["youtuber" , "movies"] } }
+) ///// same value not Push 
+
+
+db.users.updateMany(
+   { name: "amit" },
+   { $pull: { hobbies: ["youtuber" , "movies"] } }
+) ////Remove this array
+
+db.users.updateMany(
+   { name: "amit" },
+   { $pop: { hobbies: 1 } } // last arrays delete  -1 first array delete
+) ////Remove this array
