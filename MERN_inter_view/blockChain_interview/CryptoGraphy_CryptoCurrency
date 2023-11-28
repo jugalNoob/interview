@@ -1,0 +1,66 @@
+1::Protocol /Coin -->Bitcoin Ethereum Solana
+
+2::Token -->ERC20  SPL
+
+Q what is Token
+
+Ans::
+
+
+Q what Is Protocol /Coin?
+
+Ans:Protocol mean Rules
+
+...Internet Protocols HttP ,Tcp/Ip etc.
+
+...BlockChain Protocols Bitcoin , Ethereum etc
+
+...BlockChain Protocol tells abouts How peer Will Commmunicat With each other , mIner mining 
+
+
+1::Crypto You own BlockChain and Coin
+
+2::Modification of An Existing BlockChain
+
+
+
+Q what is Tokens??
+Ans::Token are a Type of Cryptocurreny That represent An assent or Specific use and resides 
+on their BlockChain
+
+
+
+
+Q what is CryptoGraphy ?
+What is cryptography, and why is it important in today's digital world?
+Can you explain the difference between symmetric and asymmetric encryption?
+What are some common cryptographic algorithms used in modern systems?
+Can you explain the process of encryption and decryption?
+How does symmetric encryption differ from asymmetric encryption, and in what scenarios would you use each?
+What are some advantages and disadvantages of different encryption techniques?
+What is a hash function, and what are its properties?
+How are hash functions used in cryptography? Can you explain some common applications?
+What is the difference between a hash function and encryption?
+
+Q what is Two Types Symmetric vs Asymmetric
+Ans:Symmetric Key Cryptograph
+
+send With key
+
+send --> Hi there --> Encryptiion --> Decryption  --> Receiver
+(message ,Key)
+
+
+
+Q what Asymmetric Key CryptoGraphy??
+Ans::
+
+A public Key
+A Private Key
+
+sender   
+
+
+Q what is Digit S
+
+
