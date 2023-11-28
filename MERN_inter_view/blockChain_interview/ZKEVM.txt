@@ -61,5 +61,24 @@ ANs::zkEVM community edition
 
 ::
 
+Q what is ZkSnark?
+Ans::On-Chain Validation: Instead of processing each transaction separately on the main chain, the 
+ZK-SNARK proof is validated on-chain to ensure the correctness of all the transactions within it.
+This process significantly reduces the computational load on the main chain.
+
+
+Aggregating Transactions: ZK Rollup collects multiple transactions off-chain, compresses them into a
+single succinct proof called a ZK-SNARK (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge),
+and submits this proof to the main Ethereum chain.
+
+
+Q what is ZKStark ?
+Ans::
+
+Q what is ZKRollUp?
+ Ans::Scalability and Cost Efficiency: By batching multiple transactions into a single proof, ZK Rollup
+greatly increases the throughput of the Ethereum network. It allows for more transactions to be processed 
+per block, improving scalability, and reduces transaction fees since the main chain only needs to verify 
+the compact proof instead of individual transactions.
 
 
