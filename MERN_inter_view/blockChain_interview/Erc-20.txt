@@ -1,3 +1,10 @@
+ERC-20 stands for Ethereum Request for Comment 20, which is a standard for creating fungible tokens on the Ethereum blockchain.
+
+
+ERC-20 defines a set of rules and functions that a token on the Ethereum network must implement in order to be considered ERC-20 compliant.
+
+
+
 Erc-20
 
 function all -6 useing
