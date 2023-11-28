@@ -9,6 +9,8 @@ hi iam jugal sharm astart a war
 
 1:://what is blockchain?
 
+2::Blockchain is a decentralized and distributed ledger technology that enables secure and transparent record-keeping of transactions across a network of computers.
+
 2. How do you explain Blockchain technology to someone who doesn't know it?
 Blockchain technology is a distributed ledger, which stores transaction details in the form of immutable records or non-modifiable records (called blocks) which are secured using cryptography.
 
