@@ -1,3 +1,57 @@
+Q What  is a Function  Javascript?
+Ans::In JavaScript, a function is a block of reusable code that performs a specific task or calculates a value. 
+
+
+Q what is diffenerce of Function and Const Function?
+
+Ans::: Arrow Function ES6 
+
+const curryAdd=()=>()=>() a+b+c
+
+
+Function:::::::::::::::::::::::::::
+
+Function one(){
+conse.log("jugla")
+return function(b){
+conseole.log("karana")
+}
+}
+
+
+Q what is Mthod Chaining?
+Ans::let numbers = [1, 2, 3, 4, 5];
+
+// Chaining array methods
+let result = numbers
+  .filter(num => num % 2 === 0) // Filter even numbers
+  .map(num => num * 2) // Multiply each by 2
+  .reduce((acc, curr) => acc + curr, 0); // Sum all values
+
+console.log(result); // Output: 18 (2*2 + 4*2)
+
+
+
+Q what is ProTotype?
+Ans::let arr=[10 , 20 , 30 , 40 , 50 , 60]
+console.log(arr.__proto__) //check PRototype
+
+
+///Inter View Question 
+let data=new Date()
+console.log(data.getFullYear()-1)
+
+///::::Create a Coustm Methods 
+Date.prototype.getLastYear = function() {
+    return this.getFullYear() - 1; // Get the current year and subtract 1
+  };
+  let date = new Date();
+  console.log(date.getLastYear()); // Output: Previous year
+  
+
+
+
+
 Q what is BOM?
 Ans:::::::111The Browser Object Model (BOM) in JavaScript refers to a collection of objects exposed 
 by web browsers to JavaScript for manipulating the browser window. 
