@@ -1,4 +1,8 @@
 
+Q what is Node Architecture?
+
+Ans::  Client  ------------->Request ------> node mean server
+
 Sure! Here are some commonly asked Node.js interview questions:
 
 1::What is Node.js?
@@ -7,8 +11,6 @@ engine and provides an event-driven, non-blocking I/O model.
 
 
 ...Node.js is a Runtime Env for Javascript
-
-
 
 ..You can run js outside of the browers
 
