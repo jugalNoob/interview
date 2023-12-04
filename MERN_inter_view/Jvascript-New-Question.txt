@@ -1,3 +1,18 @@
+q what is null vs undefined?
+let one=null
+let on; //
+console.log(typeof(on)) //undifend
+console.log(typeof(one))  // object mean null is nothing it is supposed to be something that doen't exist
+console.log(one == one) //true
+1::You can consider it bug in javscript that tyoeof null is nan object 
+2::value is null but typeof is object
+3::
+
+
+Q  what is different == vs ===
+Ans:: 
+
+
 Q What  is a Function  Javascript?
 Ans::In JavaScript, a function is a block of reusable code that performs a specific task or calculates a value. 
 
@@ -6,10 +21,16 @@ Q what is diffenerce of Function and Const Function?
 
 Ans::: Arrow Function ES6 
 
+1::Arrow functions are assigned to a variable
+2::Arrow functions are anonymous
+
 const curryAdd=()=>()=>() a+b+c
 
+||||||||||||||||||||||||||||||||||||||||Function:::::::::::::::::::::::::::
 
-Function:::::::::::::::::::::::::::
+1:::Function declarations are hoisted
+
+2::
 
 Function one(){
 conse.log("jugla")
@@ -762,6 +783,11 @@ console.log(greeting); // Output: Hello, Alice!
 
 Qwhat is objects ?
 
+In JavaScript, objects are a fundamental data structure used to store collections of key-value pairs
+
+Objects are defined using curly braces {}
+
+
 ANs::object in  javascript  all code
 
 Object literal notation:
@@ -838,7 +864,8 @@ const intervalId = setInterval(() => {
 
 
 
-12:::::: javscript all looping
+12:::::: javscript all loopin
+g
  
 for (let i = 0; i < 5; i++) {
   console.log(i);
