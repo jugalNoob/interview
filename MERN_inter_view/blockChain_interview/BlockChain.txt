@@ -7,7 +7,24 @@ hi iam jugal sharm astart a war
 5:/what is minig?
 6:/consensus protcols
 
-1:://what is blockchain?
+
+
+Q what is Ipf
+Ans:::IPFS uses a peer-to-peer protocol to create a distributed file system. When a file is added to IPFS,
+it's divided into smaller chunks, and each chunk is given a unique hash identifier. These chunks 
+are then distributed across the network of IPFS nodes
+
+:::FS stands for InterPlanetary File System. It's a distributed system for storing and accessing files, 
+aiming to make the web faster, safer, and more open. Unlike the traditional web, where files are stored on
+centralized servers with specific addresses (URLs), IPFS uses a decentralized approach. Files on IPFS are given 
+unique identifiers based on their content, making it possible to retrieve them from any node in the
+network rather than relying on specific locations.
+
+
+ Q what is blockchain?
+Ans:: BockChain is a decentralized and distributed ledger and  work p2p newtork  and immutable
+
+
 
 2::Blockchain is a decentralized and distributed ledger technology that enables secure and transparent record-keeping of transactions across a network of computers.
 
